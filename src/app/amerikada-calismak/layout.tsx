@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Amerikada Calismak | Is Bulmak ve Calisma Rehberi",
+  title: "Amerika'da Çalışmak | İş Bulmak ve Çalışma Rehberi",
   description:
-    "Amerikada nasil calisilir? Calisma vizesi turleri, is bulma yollari, maas beklentileri ve yasam maliyeti rehberi.",
+    "Amerika'da nasıl çalışılır? Çalışma vizesi türleri, iş bulma yolları, maaş beklentileri ve yaşam maliyeti rehberi.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

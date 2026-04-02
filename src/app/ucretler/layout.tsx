@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Amerika Staj Ucretleri ve Fiyatlari 2026",
+  title: "Amerika Staj Ücretleri ve Fiyatları 2026",
   description:
-    "Amerika staj programi ucretleri, SEVIS ucreti, vize basvuru masraflari ve taksit secenekleri. Seffaf fiyatlandirma.",
+    "Amerika staj programı ücretleri, SEVIS ücreti, vize başvuru masrafları ve taksit seçenekleri. Şeffaf fiyatlandırma.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

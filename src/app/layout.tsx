@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Amerika Staj Programi | amerikastaj.com",
+    default: "Amerika Staj Programı | amerikastaj.com",
     template: "%s | amerikastaj.com",
   },
   description:
-    "Amerikada maasli staj programlari, J1 vize danismanligi ve basvuru rehberi. Turkiyenin en guvenilir Amerika staj danismanligi.",
+    "Amerika'da maaşlı staj programları, J1 vize danışmanlığı ve başvuru rehberi. Türkiye'nin en güvenilir Amerika staj danışmanlığı.",
   metadataBase: new URL("https://amerikastaj.com"),
   openGraph: {
     type: "website",

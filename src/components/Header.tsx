@@ -5,11 +5,11 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "/staj-programi", label: "Staj Programi" },
-  { href: "/ucretler", label: "Ucretler" },
+  { href: "/staj-programi", label: "Staj Programı" },
+  { href: "/ucretler", label: "Ücretler" },
   { href: "/j1-vize", label: "J1 Vize" },
-  { href: "/amerika-vize-basvurusu", label: "Vize Basvurusu" },
-  { href: "/amerikada-calismak", label: "Amerikada Calismak" },
+  { href: "/amerika-vize-basvurusu", label: "Vize Başvurusu" },
+  { href: "/amerikada-calismak", label: "Amerika'da Çalışmak" },
   { href: "/sss", label: "SSS" },
 ];
 
@@ -61,7 +61,7 @@ export default function Header() {
                   amerikastaj
                 </span>
                 <span className="text-[10px] tracking-[0.2em] uppercase text-slate-light font-medium">
-                  Amerika Staj Programi
+                  Amerika Staj Programı
                 </span>
               </div>
             </Link>
@@ -87,7 +87,7 @@ export default function Header() {
                 href="/basvuru"
                 className="hidden sm:flex items-center gap-2 px-5 py-2.5 bg-navy text-white text-[13px] font-semibold tracking-wide rounded-full hover:bg-navy-light transition-all duration-300 hover:shadow-lg hover:shadow-navy/20 hover:-translate-y-0.5"
               >
-                Basvur
+                Başvur
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
@@ -163,7 +163,7 @@ export default function Header() {
                   onClick={() => setMobileOpen(false)}
                   className="inline-flex items-center gap-3 px-8 py-4 bg-navy text-white text-lg font-semibold rounded-full"
                 >
-                  Hemen Basvur
+                  Hemen Başvur
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>

@@ -5,27 +5,27 @@ import { motion } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const stats = [
-  { value: "500+", label: "Stajyer yerlestirdik" },
-  { value: "%98", label: "Vize onay orani" },
-  { value: "12+", label: "Yil deneyim" },
-  { value: "50+", label: "Partner sirket" },
+  { value: "500+", label: "Stajyer yerleştirdik" },
+  { value: "%98", label: "Vize onay oranı" },
+  { value: "12+", label: "Yıl deneyim" },
+  { value: "50+", label: "Partner şirket" },
 ];
 
 const programs = [
   {
     tag: "J1 Internship",
-    title: "Universite Ogrencileri Icin",
+    title: "Üniversite Öğrencileri İçin",
     description:
-      "Universite ogrencileri ve yeni mezunlar icin 12 aya kadar maasli staj imkani. Otel, IT, isletme, muhendislik ve daha fazla sektorde.",
-    features: ["12 aya kadar", "Maasli pozisyonlar", "Tum sektorler"],
+      "Üniversite öğrencileri ve yeni mezunlar için 12 aya kadar maaşlı staj imkanı. Otel, IT, işletme, mühendislik ve daha fazla sektörde.",
+    features: ["12 aya kadar", "Maaşlı pozisyonlar", "Tüm sektörler"],
     href: "/staj-programi",
   },
   {
     tag: "J1 Trainee",
-    title: "Deneyimli Profesyoneller Icin",
+    title: "Deneyimli Profesyoneller İçin",
     description:
-      "En az 1 yil is deneyimi olan profesyoneller icin 18 aya kadar kariyer gelistirme programi. Kendi alaninda Amerika deneyimi kazan.",
-    features: ["18 aya kadar", "Kariyer gelisimi", "Profesyonel ag"],
+      "En az 1 yıl iş deneyimi olan profesyoneller için 18 aya kadar kariyer geliştirme programı. Kendi alanında Amerika deneyimi kazan.",
+    features: ["18 aya kadar", "Kariyer gelişimi", "Profesyonel ağ"],
     href: "/staj-programi",
   },
 ];
@@ -33,23 +33,23 @@ const programs = [
 const steps = [
   {
     number: "01",
-    title: "Ucretsiz Danismanlik",
-    description: "Profilini degerlendiriyoruz, sana en uygun programi belirliyoruz.",
+    title: "Ücretsiz Danışmanlık",
+    description: "Profilini değerlendiriyoruz, sana en uygun programı belirliyoruz.",
   },
   {
     number: "02",
-    title: "Pozisyon Eslestirme",
-    description: "Alanina uygun Amerikadaki sirketlerle eslestiriyoruz.",
+    title: "Pozisyon Eşleştirme",
+    description: "Alanına uygun Amerika'daki şirketlerle eşleştiriyoruz.",
   },
   {
     number: "03",
-    title: "Vize Sureci",
-    description: "DS-2019 belgen, SEVIS odemesi ve vize mulakat hazirligi.",
+    title: "Vize Süreci",
+    description: "DS-2019 belgen, SEVIS ödemesi ve vize mülakat hazırlığı.",
   },
   {
     number: "04",
-    title: "Amerikaya Ucus",
-    description: "Her sey hazir. Staj maceranna basliyorsun.",
+    title: "Amerika'ya Uçuş",
+    description: "Her şey hazır. Staj macerana başlıyorsun.",
   },
 ];
 
@@ -57,8 +57,8 @@ const sectors = [
   { icon: "🏨", name: "Otelcilik & Turizm" },
   { icon: "💻", name: "Bilgi Teknolojileri" },
   { icon: "🍽️", name: "Gastronomi & Mutfak" },
-  { icon: "📊", name: "Isletme & Finans" },
-  { icon: "⚙️", name: "Muhendislik" },
+  { icon: "📊", name: "İşletme & Finans" },
+  { icon: "⚙️", name: "Mühendislik" },
   { icon: "📱", name: "Pazarlama & Medya" },
 ];
 
@@ -91,7 +91,7 @@ export default function Home() {
               <div className="flex items-center gap-2 px-4 py-2 bg-navy/5 rounded-full">
                 <div className="w-2 h-2 bg-crimson rounded-full animate-pulse" />
                 <span className="text-xs font-semibold tracking-[0.1em] uppercase text-navy">
-                  2026 Basvurulari Acildi
+                  2026 Başvuruları Açıldı
                 </span>
               </div>
             </motion.div>
@@ -102,7 +102,7 @@ export default function Home() {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-[1.05] tracking-tight text-navy mb-8"
             >
-              Amerikada
+              Amerika&apos;da
               <br />
               <span className="relative inline-block">
                 staj deneyimi
@@ -124,7 +124,7 @@ export default function Home() {
               </span>{" "}
               ile
               <br />
-              kariyerine yon ver.
+              kariyerine yön ver.
             </motion.h1>
 
             <motion.p
@@ -133,8 +133,8 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-lg lg:text-xl text-slate leading-relaxed max-w-2xl mb-12"
             >
-              J1 vize ile Amerikadaki sirketlerde maasli staj yap. Vize
-              islemlerinden is eslestirmeye kadar tum sureci biz yonetiyoruz.
+              J1 vize ile Amerika&apos;daki şirketlerde maaşlı staj yap. Vize
+              işlemlerinden iş eşleştirmeye kadar tüm süreci biz yönetiyoruz.
             </motion.p>
 
             <motion.div
@@ -147,7 +147,7 @@ export default function Home() {
                 href="/basvuru"
                 className="group relative inline-flex items-center gap-3 px-8 py-4 bg-navy text-white font-semibold text-[15px] rounded-full overflow-hidden hover:shadow-2xl hover:shadow-navy/20 transition-all duration-500 hover:-translate-y-0.5"
               >
-                <span className="relative z-10">Ucretsiz Danismanlik Al</span>
+                <span className="relative z-10">Ücretsiz Danışmanlık Al</span>
                 <svg
                   width="16"
                   height="16"
@@ -167,7 +167,7 @@ export default function Home() {
                 href="/staj-programi"
                 className="inline-flex items-center gap-3 px-8 py-4 text-navy font-semibold text-[15px] rounded-full border border-navy/10 hover:border-navy/30 hover:bg-navy/5 transition-all duration-300"
               >
-                Programlari Incele
+                Programları İncele
               </Link>
             </motion.div>
           </div>
@@ -200,14 +200,14 @@ export default function Home() {
                   Programlar
                 </p>
                 <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
-                  Sana uygun programi sec
+                  Sana uygun programı seç
                 </h2>
               </div>
               <Link
                 href="/staj-programi"
                 className="text-sm font-medium text-navy hover:text-crimson transition-colors flex items-center gap-2"
               >
-                Tum detaylar
+                Tüm detaylar
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
@@ -257,10 +257,10 @@ export default function Home() {
           <ScrollReveal>
             <div className="text-center mb-16 lg:mb-20">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Nasil Calisir
+                Nasıl Çalışır
               </p>
               <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
-                Dort adimda Amerikaya
+                Dört adımda Amerika&apos;ya
               </h2>
             </div>
           </ScrollReveal>
@@ -291,17 +291,17 @@ export default function Home() {
             <ScrollReveal>
               <div>
                 <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                  Sektorler
+                  Sektörler
                 </p>
                 <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight mb-6">
                   Hangi alanda staj yapmak istiyorsun?
                 </h2>
                 <p className="text-slate leading-relaxed mb-8">
-                  Otelcilikten yazilima, gastronimiden muhendislige kadar onlarca
-                  farkli sektorde Amerikan sirketleriyle calisma firsati.
+                  Otelcilikten yazılıma, gastronomiden mühendisliğe kadar onlarca
+                  farklı sektörde Amerikan şirketleriyle çalışma fırsatı.
                 </p>
                 <Link href="/staj-programi" className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-crimson transition-colors">
-                  Tum sektorleri gor
+                  Tüm sektörleri gör
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
@@ -340,8 +340,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                title: "Bastan Sona Destek",
-                description: "Basvurudan vize mulakatina, ucus planlamasindan staj baslangicina kadar her adimda yanindayiz.",
+                title: "Baştan Sona Destek",
+                description: "Başvurudan vize mülakatına, uçuş planlamasından staj başlangıcına kadar her adımda yanındayız.",
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -349,8 +349,8 @@ export default function Home() {
                 ),
               },
               {
-                title: "Garantili Yerlestirme",
-                description: "50den fazla Amerikan partner sirketimizle profiline en uygun pozisyonu buluyoruz.",
+                title: "Garantili Yerleştirme",
+                description: "50'den fazla Amerikan partner şirketimizle profiline en uygun pozisyonu buluyoruz.",
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -359,8 +359,8 @@ export default function Home() {
                 ),
               },
               {
-                title: "Seffaf Fiyatlandirma",
-                description: "Gizli ucret yok. Ne kadar odeyecegini en basindan bilirsin. Taksit secenekleri mevcut.",
+                title: "Şeffaf Fiyatlandırma",
+                description: "Gizli ücret yok. Ne kadar ödeyeceğini en başından bilirsin. Taksit seçenekleri mevcut.",
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="12" y1="1" x2="12" y2="23" />
@@ -396,13 +396,13 @@ export default function Home() {
                 ))}
               </div>
               <blockquote className="text-2xl lg:text-3xl font-bold text-navy leading-snug mb-8">
-                &ldquo;Amerikastaj sayesinde New Yorkta bir teknoloji sirketinde 6 ay staj yaptim.
-                Tum vize surecimi onlar yonetti, ben sadece isime odaklandim.&rdquo;
+                &ldquo;Amerikastaj sayesinde New York&apos;ta bir teknoloji şirketinde 6 ay staj yaptım.
+                Tüm vize sürecimi onlar yönetti, ben sadece işime odaklandım.&rdquo;
               </blockquote>
               <div>
                 <p className="font-semibold text-navy">Elif K.</p>
                 <p className="text-sm text-slate">
-                  Bilgisayar Muhendisligi, ITU &mdash; 2025 Stajyeri
+                  Bilgisayar Mühendisliği, İTÜ &mdash; 2025 Stajyeri
                 </p>
               </div>
             </div>
@@ -419,19 +419,19 @@ export default function Home() {
                 Rehber
               </p>
               <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
-                Bilmen gereken her sey
+                Bilmen gereken her şey
               </h2>
             </div>
           </ScrollReveal>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vizesi nedir, nasil basvurulur, gerekli belgeler nelerdir?" },
-              { href: "/amerika-vize-basvurusu", title: "Amerika Vize Basvurusu", desc: "ABD vize sureci, randevu alma, ucretler ve gerekli evraklar." },
-              { href: "/ds-160", title: "DS-160 Formu", desc: "DS-160 formu nasil doldurulur? Adim adim rehber." },
-              { href: "/j1-vize-mulakat-sorulari", title: "Mulakat Sorulari", desc: "J1 vize mulakatinda en cok sorulan sorular ve cevaplari." },
-              { href: "/amerikada-calismak", title: "Amerikada Calismak", desc: "Amerikada is bulmak, calisma kosullari ve yasam rehberi." },
-              { href: "/sss", title: "Sikca Sorulan Sorular", desc: "Staj programi hakkinda merak edilen tum sorular." },
+              { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vizesi nedir, nasıl başvurulur, gerekli belgeler nelerdir?" },
+              { href: "/amerika-vize-basvurusu", title: "Amerika Vize Başvurusu", desc: "ABD vize süreci, randevu alma, ücretler ve gerekli evraklar." },
+              { href: "/ds-160", title: "DS-160 Formu", desc: "DS-160 formu nasıl doldurulur? Adım adım rehber." },
+              { href: "/j1-vize-mulakat-sorulari", title: "Mülakat Soruları", desc: "J1 vize mülakatında en çok sorulan sorular ve cevapları." },
+              { href: "/amerikada-calismak", title: "Amerika'da Çalışmak", desc: "Amerika'da iş bulmak, çalışma koşulları ve yaşam rehberi." },
+              { href: "/sss", title: "Sıkça Sorulan Sorular", desc: "Staj programı hakkında merak edilen tüm sorular." },
             ].map((item, i) => (
               <ScrollReveal key={item.href} delay={i * 0.08}>
                 <Link href={item.href} className="group block">

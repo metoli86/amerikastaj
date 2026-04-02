@@ -24,13 +24,13 @@ const internshipFields = [
   },
   {
     icon: "📊",
-    title: "Isletme & Finans",
+    title: "İşletme & Finans",
     roles: "Accounting, Business Administration, Marketing",
     duration: "6-18 ay",
   },
   {
     icon: "⚙️",
-    title: "Muhendislik",
+    title: "Mühendislik",
     roles: "Mechanical, Electrical, Civil, Industrial Engineering",
     duration: "6-18 ay",
   },
@@ -44,18 +44,18 @@ const internshipFields = [
 
 const requirements = {
   internship: [
-    "Universite ogrencisi veya yeni mezun olmak (mezuniyetten sonra max 12 ay)",
-    "En az 1 yil universite egitimi tamamlamis olmak",
-    "Temel duzey Ingilizce bilgisi",
-    "Staj yapilacak alanla ilgili egitim almis olmak",
-    "18-30 yas arasi",
+    "Üniversite öğrencisi veya yeni mezun olmak (mezuniyetten sonra max 12 ay)",
+    "En az 1 yıl üniversite eğitimi tamamlamış olmak",
+    "Temel düzey İngilizce bilgisi",
+    "Staj yapılacak alanla ilgili eğitim almış olmak",
+    "18-30 yaş arası",
   ],
   trainee: [
-    "Universite mezunu olmak",
-    "En az 1 yil ilgili alanda is deneyimi",
-    "Orta duzey Ingilizce bilgisi",
-    "Alaninda kariyer gelisimi hedeflemek",
-    "20-35 yas arasi",
+    "Üniversite mezunu olmak",
+    "En az 1 yıl ilgili alanda iş deneyimi",
+    "Orta düzey İngilizce bilgisi",
+    "Alanında kariyer gelişimi hedeflemek",
+    "20-35 yaş arası",
   ],
 };
 
@@ -71,12 +71,12 @@ export default function StajProgrami() {
               Programlar
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Amerikada Maasli Staj Programi
+              Amerika&apos;da Maaşlı Staj Programı
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              J1 vize kategorisi altinda Internship ve Trainee programlari ile
-              Amerikadaki sirketlerde profesyonel deneyim kazan. Tum sektorlerde
-              maasli pozisyonlar mevcut.
+              J1 vize kategorisi altında Internship ve Trainee programları ile
+              Amerika&apos;daki şirketlerde profesyonel deneyim kazan. Tüm sektörlerde
+              maaşlı pozisyonlar mevcut.
             </p>
           </ScrollReveal>
         </div>
@@ -96,15 +96,15 @@ export default function StajProgrami() {
                   <span className="text-xs text-slate">12 aya kadar</span>
                 </div>
                 <h2 className="text-2xl lg:text-3xl font-bold text-navy mb-4">
-                  Universite Ogrencileri & Yeni Mezunlar
+                  Üniversite Öğrencileri & Yeni Mezunlar
                 </h2>
                 <p className="text-slate leading-relaxed mb-8">
-                  Halen universite egitimi gorenler veya mezuniyetinin uzerinden 12 ay
-                  gecmemis kisiler icin. Egitim aldigin alanla ilgili Amerikan
-                  sirketlerinde staj yapma firsati.
+                  Halen üniversite eğitimi görenler veya mezuniyetinin üzerinden 12 ay
+                  geçmemiş kişiler için. Eğitim aldığın alanla ilgili Amerikan
+                  şirketlerinde staj yapma fırsatı.
                 </p>
                 <h3 className="text-sm font-bold text-navy mb-4 uppercase tracking-wide">
-                  Katilim Sartlari
+                  Katılım Şartları
                 </h3>
                 <ul className="space-y-3 mb-8">
                   {requirements.internship.map((req) => (
@@ -120,7 +120,7 @@ export default function StajProgrami() {
                   href="/basvuru"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-navy text-white text-sm font-semibold rounded-full hover:bg-navy-light transition-all duration-300"
                 >
-                  Internship Basvurusu
+                  Internship Başvurusu
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
@@ -141,12 +141,12 @@ export default function StajProgrami() {
                   Deneyimli Profesyoneller
                 </h2>
                 <p className="text-slate leading-relaxed mb-8">
-                  En az 1 yil is deneyimine sahip profesyoneller icin. Kendi
-                  kariyerinde uzmanlasmak, uluslararasi deneyim kazanmak ve
-                  profesyonel agini genisletmek isteyenler icin ideal.
+                  En az 1 yıl iş deneyimine sahip profesyoneller için. Kendi
+                  kariyerinde uzmanlaşmak, uluslararası deneyim kazanmak ve
+                  profesyonel ağını genişletmek isteyenler için ideal.
                 </p>
                 <h3 className="text-sm font-bold text-navy mb-4 uppercase tracking-wide">
-                  Katilim Sartlari
+                  Katılım Şartları
                 </h3>
                 <ul className="space-y-3 mb-8">
                   {requirements.trainee.map((req) => (
@@ -162,7 +162,7 @@ export default function StajProgrami() {
                   href="/basvuru"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-crimson text-white text-sm font-semibold rounded-full hover:bg-crimson-dark transition-all duration-300"
                 >
-                  Trainee Basvurusu
+                  Trainee Başvurusu
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
@@ -179,10 +179,10 @@ export default function StajProgrami() {
           <ScrollReveal>
             <div className="text-center mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Staj Alanlari
+                Staj Alanları
               </p>
               <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
-                Hangi sektorde staj yapmak istersin?
+                Hangi sektörde staj yapmak istersin?
               </h2>
             </div>
           </ScrollReveal>
@@ -227,13 +227,13 @@ export default function StajProgrami() {
                 </thead>
                 <tbody className="divide-y divide-navy/5">
                   {[
-                    ["Kimler icin", "Ogrenci / Yeni mezun", "Deneyimli profesyonel"],
-                    ["Sure", "12 aya kadar", "18 aya kadar"],
-                    ["Deneyim sarti", "Yok", "Min. 1 yil"],
-                    ["Egitim sarti", "Min. 1 yil universite", "Universite mezunu"],
-                    ["Yas araligi", "18-30", "20-35"],
-                    ["Maas", "Evet", "Evet"],
-                    ["Vize turu", "J1 Exchange Visitor", "J1 Exchange Visitor"],
+                    ["Kimler için", "Öğrenci / Yeni mezun", "Deneyimli profesyonel"],
+                    ["Süre", "12 aya kadar", "18 aya kadar"],
+                    ["Deneyim şartı", "Yok", "Min. 1 yıl"],
+                    ["Eğitim şartı", "Min. 1 yıl üniversite", "Üniversite mezunu"],
+                    ["Yaş aralığı", "18-30", "20-35"],
+                    ["Maaş", "Evet", "Evet"],
+                    ["Vize türü", "J1 Exchange Visitor", "J1 Exchange Visitor"],
                   ].map((row) => (
                     <tr key={row[0]}>
                       <td className="p-5 text-sm font-semibold text-navy">{row[0]}</td>
@@ -253,17 +253,17 @@ export default function StajProgrami() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
           <ScrollReveal>
             <h2 className="text-3xl lg:text-5xl font-bold tracking-tight mb-6">
-              Staj macerana baslamaya hazir misin?
+              Staj macerana başlamaya hazır mısın?
             </h2>
             <p className="text-white/60 text-lg mb-10 max-w-xl mx-auto">
-              Ucretsiz danismanlik gorusmesi ile profilini degerlendirelim ve sana
-              en uygun programi belirleyelim.
+              Ücretsiz danışmanlık görüşmesi ile profilini değerlendirelim ve sana
+              en uygun programı belirleyelim.
             </p>
             <Link
               href="/basvuru"
               className="inline-flex items-center gap-3 px-8 py-4 bg-white text-navy font-bold text-[15px] rounded-full hover:bg-sand transition-all duration-300 hover:shadow-xl"
             >
-              Ucretsiz Danismanlik Al
+              Ücretsiz Danışmanlık Al
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>

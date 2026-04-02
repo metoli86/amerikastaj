@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Amerika Staj Programi | J1 Internship & Trainee",
+  title: "Amerika Staj Programı | J1 Internship & Trainee",
   description:
-    "Amerikada maasli staj programlari: J1 Internship ve J1 Trainee. Otelcilik, IT, gastronomi, muhendislik ve daha fazla sektorde staj imkani.",
+    "Amerika'da maaşlı staj programları: J1 Internship ve J1 Trainee. Otelcilik, IT, gastronomi, mühendislik ve daha fazla sektörde staj imkanı.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

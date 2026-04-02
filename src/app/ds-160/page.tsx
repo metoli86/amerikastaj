@@ -6,138 +6,138 @@ import ScrollReveal from "@/components/ScrollReveal";
 const formSections = [
   {
     step: "01",
-    title: "Kisisel Bilgiler (Personal Information)",
+    title: "Kişisel Bilgiler (Personal Information)",
     fields: [
-      "Ad ve soyad (pasaporttaki sekliyle)",
-      "Dogum tarihi ve yeri",
+      "Ad ve soyad (pasaporttaki şekliyle)",
+      "Doğum tarihi ve yeri",
       "Cinsiyet ve medeni durum",
-      "Ulusal kimlik numarasi (TC Kimlik No)",
-      "Pasaport numarasi, verilme ve bitis tarihi",
+      "Ulusal kimlik numarası (TC Kimlik No)",
+      "Pasaport numarası, verilme ve bitiş tarihi",
     ],
-    tip: "Bilgilerinizi pasaportunuzdaki sekliyle girin. Kucuk bir harf hatasi bile sorun yaratabilir.",
+    tip: "Bilgilerinizi pasaportunuzdaki şekliyle girin. Küçük bir harf hatası bile sorun yaratabilir.",
   },
   {
     step: "02",
-    title: "Iletisim Bilgileri (Contact Information)",
+    title: "İletişim Bilgileri (Contact Information)",
     fields: [
       "Ev adresi",
-      "Telefon numarasi (cep ve ev)",
+      "Telefon numarası (cep ve ev)",
       "E-posta adresi",
-      "Son 5 yilda kullandiginiz telefon numaralari",
+      "Son 5 yılda kullandığınız telefon numaraları",
     ],
-    tip: "Aktif kullaniginiz telefon ve e-posta adresinizi yayin. Konsolosluk sizinle bu bilgiler uzerinden iletisime gecebilir.",
+    tip: "Aktif kullandığınız telefon ve e-posta adresinizi yazın. Konsolosluk sizinle bu bilgiler üzerinden iletişime geçebilir.",
   },
   {
     step: "03",
     title: "Seyahat Bilgileri (Travel Information)",
     fields: [
-      "Seyahat amaci (vize turu)",
-      "ABDde kalmayi planladiginiz sure",
-      "ABDde kalacaginiz adres",
-      "Seyahat masraflarini kim karsilayacak",
-      "ABDye daha once seyahat ettiniz mi",
+      "Seyahat amacı (vize türü)",
+      "ABD'de kalmayı planladığınız süre",
+      "ABD'de kalacağınız adres",
+      "Seyahat masraflarını kim karşılayacak",
+      "ABD'ye daha önce seyahat ettiniz mi",
     ],
-    tip: "ABDde kalacaginiz adresi onceden ogrenerek forma girin. Otel veya ev sahibi adresi olabilir.",
+    tip: "ABD'de kalacağınız adresi önceden öğrenerek forma girin. Otel veya ev sahibi adresi olabilir.",
   },
   {
     step: "04",
-    title: "ABD Iletisim Bilgileri (U.S. Contact)",
+    title: "ABD İletişim Bilgileri (U.S. Contact)",
     fields: [
-      "ABDdeki iletisim kisisi adi",
-      "Kurum/sirket adi",
-      "Adres ve telefon numarasi",
-      "Kissiyle iliskiniz",
+      "ABD'deki iletişim kişisi adı",
+      "Kurum/şirket adı",
+      "Adres ve telefon numarası",
+      "Kişiyle ilişkiniz",
     ],
-    tip: "J1 vize icin sponsor kurulusunuzun veya calisacaginiz sirketin bilgilerini girin.",
+    tip: "J1 vize için sponsor kuruluşunuzun veya çalışacağınız şirketin bilgilerini girin.",
   },
   {
     step: "05",
     title: "Aile Bilgileri (Family Information)",
     fields: [
-      "Anne ve baba adi, dogum tarihi",
-      "ABDde yakininiz var mi",
-      "Es bilgileri (evliyseniz)",
+      "Anne ve baba adı, doğum tarihi",
+      "ABD'de yakınınız var mı",
+      "Eş bilgileri (evliyseniz)",
     ],
-    tip: "ABDde akrabaniz varsa dogru bildirin. Konsolosluk kayitlari kontrol edebilir.",
+    tip: "ABD'de akrabanız varsa doğru bildirin. Konsolosluk kayıtları kontrol edebilir.",
   },
   {
     step: "06",
-    title: "Egitim ve Is Bilgileri (Education & Work)",
+    title: "Eğitim ve İş Bilgileri (Education & Work)",
     fields: [
-      "Egitim gecmisi (universite, lise)",
-      "Mevcut is yeri ve gorev",
-      "Onceki is yerleri",
-      "Aylik gelir",
+      "Eğitim geçmişi (üniversite, lise)",
+      "Mevcut iş yeri ve görev",
+      "Önceki iş yerleri",
+      "Aylık gelir",
     ],
-    tip: "Son is yeriniz ve egitim bilgilerinizi detayli girin. Stajyer iseniz universite bilgileriniz onemlidir.",
+    tip: "Son iş yeriniz ve eğitim bilgilerinizi detaylı girin. Stajyer iseniz üniversite bilgileriniz önemlidir.",
   },
   {
     step: "07",
-    title: "Guvenlik Sorulari (Security Questions)",
+    title: "Güvenlik Soruları (Security Questions)",
     fields: [
-      "Bulasiici hastalik var mi",
-      "Tutuklanma veya mahkumiyet var mi",
-      "Daha once vize reddedildi mi",
-      "ABDde sinir disina cikarildiniz mi",
+      "Bulaşıcı hastalık var mı",
+      "Tutuklanma veya mahkumiyet var mı",
+      "Daha önce vize reddedildi mi",
+      "ABD'de sınır dışına çıkarıldınız mı",
     ],
-    tip: "Tum guvenlik sorularini dikkatli okyun ve dogru cevap verin. Yanlis bilgi vize iptaline yol acabilir.",
+    tip: "Tüm güvenlik sorularını dikkatli okuyun ve doğru cevap verin. Yanlış bilgi vize iptaline yol açabilir.",
   },
   {
     step: "08",
-    title: "Fotograf Yukleme ve Onay",
+    title: "Fotoğraf Yükleme ve Onay",
     fields: [
-      "Dijital fotograf yukleme (600x600 piksel, beyaz arkaplan)",
+      "Dijital fotoğraf yükleme (600x600 piksel, beyaz arkaplan)",
       "Formu inceleme ve onaylama",
-      "Onay sayfasini yazdirma",
+      "Onay sayfasını yazdırma",
     ],
-    tip: "Fotografiniz son 6 ay icerisinde cekilmis olmali. Gozluk takilmamali, beyaz arkaplan kullanilmali.",
+    tip: "Fotoğrafınız son 6 ay içerisinde çekilmiş olmalı. Gözlük takılmamalı, beyaz arkaplan kullanılmalı.",
   },
 ];
 
 const commonMistakes = [
   {
-    mistake: "Pasaport bilgilerini yanlis girmek",
-    solution: "Formu doldurmadan once pasaportunuzu yanniniza alin. Ad, soyad ve numara birebir ayni olmali.",
+    mistake: "Pasaport bilgilerini yanlış girmek",
+    solution: "Formu doldurmadan önce pasaportunuzu yanınıza alın. Ad, soyad ve numara birebir aynı olmalı.",
   },
   {
-    mistake: "Formu kaydetmeden tarayiciyi kapatmak",
-    solution: "Her sayfa gecisinde form otomatik kaydedilir ancak Application ID numaranizi mutlaka not alin.",
+    mistake: "Formu kaydetmeden tarayıcıyı kapatmak",
+    solution: "Her sayfa geçişinde form otomatik kaydedilir ancak Application ID numaranızı mutlaka not alın.",
   },
   {
-    mistake: "Eski veya uyumsuz fotograf yuklemek",
-    solution: "600x600 piksel, beyaz arkaplan, son 6 ayda cekilmis, gozluksuz fotograf kullanin.",
+    mistake: "Eski veya uyumsuz fotoğraf yüklemek",
+    solution: "600x600 piksel, beyaz arkaplan, son 6 ayda çekilmiş, gözlüksüz fotoğraf kullanın.",
   },
   {
-    mistake: "Guvenlik sorularinda yanlis bilgi vermek",
-    solution: "Tum evet/hayir sorularini dikkatli okuyun. Onceki vize retleri dahil her seyi dogru bildirin.",
+    mistake: "Güvenlik sorularında yanlış bilgi vermek",
+    solution: "Tüm evet/hayır sorularını dikkatli okuyun. Önceki vize retleri dahil her şeyi doğru bildirin.",
   },
   {
-    mistake: "Seyahat gecmisini eksik birakmak",
-    solution: "Son 5 yilda ziyaret ettiginiz tum ulkeleri listeleyin. Pasaport damgalarinizi kontrol edin.",
+    mistake: "Seyahat geçmişini eksik bırakmak",
+    solution: "Son 5 yılda ziyaret ettiğiniz tüm ülkeleri listeleyin. Pasaport damgalarınızı kontrol edin.",
   },
   {
-    mistake: "Iletisim bilgilerini guncellememek",
-    solution: "Aktif telefon ve e-posta adresinizi yayin. Konsolosluk bu bilgiler uzerinden ulasabilir.",
+    mistake: "İletişim bilgilerini güncellememek",
+    solution: "Aktif telefon ve e-posta adresinizi yazın. Konsolosluk bu bilgiler üzerinden ulaşabilir.",
   },
   {
-    mistake: "Onay sayfasini yazdirmamak",
-    solution: "DS-160 onay sayfasi mulakat icin zorunlu. Hem dijital hem basili kopyasini saklayin.",
+    mistake: "Onay sayfasını yazdırmamak",
+    solution: "DS-160 onay sayfası mülakat için zorunlu. Hem dijital hem basılı kopyasını saklayın.",
   },
 ];
 
 const requiredInfo = [
-  "Gecerli pasaport",
-  "TC Kimlik numarasi",
-  "Ev ve is adresi (Turkiye)",
-  "ABDde kalacaginiz adres",
-  "ABDdeki iletisim kisisi bilgileri",
-  "Son 5 yilda ziyaret edilen ulkeler",
-  "Egitim gecmisi (okul adi, tarih, bolum)",
-  "Is gecmisi (sirket adi, gorev, tarih)",
-  "Anne-baba adi ve dogum tarihi",
-  "Dijital fotograf (600x600px, beyaz arkaplan)",
-  "Onceki ABD vizeleri (varsa)",
-  "Sosyal medya hesaplari (kullanici adlari)",
+  "Geçerli pasaport",
+  "TC Kimlik numarası",
+  "Ev ve iş adresi (Türkiye)",
+  "ABD'de kalacağınız adres",
+  "ABD'deki iletişim kişisi bilgileri",
+  "Son 5 yılda ziyaret edilen ülkeler",
+  "Eğitim geçmişi (okul adı, tarih, bölüm)",
+  "İş geçmişi (şirket adı, görev, tarih)",
+  "Anne-baba adı ve doğum tarihi",
+  "Dijital fotoğraf (600x600px, beyaz arkaplan)",
+  "Önceki ABD vizeleri (varsa)",
+  "Sosyal medya hesapları (kullanıcı adları)",
 ];
 
 export default function DS160() {
@@ -152,12 +152,12 @@ export default function DS160() {
               Form Rehberi
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              DS-160 Formu Nasil Doldurulur?
+              DS-160 Formu Nasıl Doldurulur?
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              DS-160, ABD vize basvurusu icin doldurulmasi zorunlu olan online
-              formudur. Bu rehberde formu adim adim nasil dolduracaginizi,
-              yapilan yaygin hatalari ve hazirlamaniz gereken bilgileri
+              DS-160, ABD vize başvurusu için doldurulması zorunlu olan online
+              formudur. Bu rehberde formu adım adım nasıl dolduracağınızı,
+              yapılan yaygın hataları ve hazırlamanız gereken bilgileri
               bulabilirsiniz.
             </p>
           </ScrollReveal>
@@ -174,22 +174,22 @@ export default function DS160() {
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  DS-160 (Online Nonimmigrant Visa Application), ABDye seyahat
-                  etmek isteyen tum gocu-olmayan vize basvuru sahiplerinin
-                  doldurmus olmasi gereken online formudur. Form, ABD Disisleri
-                  Bakanligi tarafindan yonetilir ve ceac.state.gov adresinden
-                  erisilebilir.
+                  DS-160 (Online Nonimmigrant Visa Application), ABD&apos;ye seyahat
+                  etmek isteyen tüm göçü-olmayan vize başvuru sahiplerinin
+                  doldurmuş olması gereken online formudur. Form, ABD Dışişleri
+                  Bakanlığı tarafından yönetilir ve ceac.state.gov adresinden
+                  erişilebilir.
                 </p>
                 <p>
-                  Form tamamen Ingilizce doldurulur ve kisisel bilgileriniz,
-                  seyahat amaiciniz, egitim ve is gecmisiniz, aile bilgileriniz
-                  ile guvenlik sorularini icerir. Formun tamamlanmasi ortalama
-                  45-90 dakika surer.
+                  Form tamamen İngilizce doldurulur ve kişisel bilgileriniz,
+                  seyahat amacınız, eğitim ve iş geçmişiniz, aile bilgileriniz
+                  ile güvenlik sorularını içerir. Formun tamamlanması ortalama
+                  45-90 dakika sürer.
                 </p>
                 <p>
-                  DS-160 formu tamamlandiginda bir onay sayfasi olusur. Bu onay
-                  sayfasinin barkodu mulakatinizda taranacaktir, bu yuzden onay
-                  sayfasini mutlaka yazdirmaniz gerekir.
+                  DS-160 formu tamamlandığında bir onay sayfası oluşur. Bu onay
+                  sayfasının barkodu mülakatınızda taranacaktır, bu yüzden onay
+                  sayfasını mutlaka yazdırmanız gerekir.
                 </p>
               </div>
             </ScrollReveal>
@@ -203,14 +203,14 @@ export default function DS160() {
           <ScrollReveal>
             <div className="max-w-3xl">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Baslmadan Once
+                Başlamadan Önce
               </p>
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-4">
-                Hazirlamaniz Gereken Bilgiler
+                Hazırlamanız Gereken Bilgiler
               </h2>
               <p className="text-slate leading-relaxed mb-10">
-                DS-160 formunu doldurmaya baslamadan once asagidaki bilgi ve
-                belgeleri yaninda bulundurun:
+                DS-160 formunu doldurmaya başlamadan önce aşağıdaki bilgi ve
+                belgeleri yanınızda bulundurun:
               </p>
               <div className="bg-white rounded-2xl border border-navy/5 divide-y divide-navy/5">
                 {requiredInfo.map((item, i) => (
@@ -235,10 +235,10 @@ export default function DS160() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Adim Adim
+                Adım Adım
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                DS-160 Formu Doldurma Adimlari
+                DS-160 Formu Doldurma Adımları
               </h2>
             </div>
           </ScrollReveal>
@@ -291,7 +291,7 @@ export default function DS160() {
                 Dikkat Edilmesi Gerekenler
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                Yapilan Yaygin Hatalar
+                Yapılan Yaygın Hatalar
               </h2>
             </div>
           </ScrollReveal>
@@ -325,24 +325,24 @@ export default function DS160() {
               <div className="space-y-4">
                 {[
                   {
-                    q: "DS-160 formunu doldurmak ne kadar surer?",
-                    a: "Ortalama 45-90 dakika. Tum bilgilerinizi onceden hazirlarsaniz daha hizli tamamlayabilirsiniz.",
+                    q: "DS-160 formunu doldurmak ne kadar sürer?",
+                    a: "Ortalama 45-90 dakika. Tüm bilgilerinizi önceden hazırlarsanız daha hızlı tamamlayabilirsiniz.",
                   },
                   {
                     q: "Form kaydedilir mi?",
-                    a: "Her sayfa gecisinde otomatik kaydedilir. Application ID numaranizla 30 gun icerisinde devam edebilirsiniz.",
+                    a: "Her sayfa geçişinde otomatik kaydedilir. Application ID numaranızla 30 gün içerisinde devam edebilirsiniz.",
                   },
                   {
-                    q: "DS-160 ucretsiz mi?",
-                    a: "Evet, DS-160 formunun kendisi ucretsizdir. Ancak vize basvuru ucreti ($185 MRV fee) ayri odenir.",
+                    q: "DS-160 ücretsiz mi?",
+                    a: "Evet, DS-160 formunun kendisi ücretsizdir. Ancak vize başvuru ücreti ($185 MRV fee) ayrı ödenir.",
                   },
                   {
-                    q: "Hangi tarayiciyi kullanmaliyim?",
-                    a: "Chrome veya Firefox en iyi sonucu verir. Internet Explorer artik desteklenmemektedir.",
+                    q: "Hangi tarayıcıyı kullanmalıyım?",
+                    a: "Chrome veya Firefox en iyi sonucu verir. Internet Explorer artık desteklenmemektedir.",
                   },
                   {
-                    q: "Fotograf ozellikleri nelerdir?",
-                    a: "600x600 piksel, JPEG formati, beyaz arkaplan, son 6 ayda cekilmis, gozluksuz, maksimum 240KB.",
+                    q: "Fotoğraf özellikleri nelerdir?",
+                    a: "600x600 piksel, JPEG formatı, beyaz arkaplan, son 6 ayda çekilmiş, gözlüksüz, maksimum 240KB.",
                   },
                 ].map((item, i) => (
                   <div key={i} className="p-5 bg-white rounded-xl border border-navy/5">
@@ -362,17 +362,17 @@ export default function DS160() {
           <ScrollReveal>
             <div className="bg-navy rounded-2xl p-10 lg:p-16 text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-white mb-4">
-                DS-160 Doldurmada Yardim mi Lazim?
+                DS-160 Doldurmada Yardım mı Lazım?
               </h2>
               <p className="text-white/70 max-w-xl mx-auto mb-8">
-                Danismanlarimiz DS-160 formunuzu birlikte doldurarak hata
-                yapmanizi onler ve vize onay sansinizi arttirir.
+                Danışmanlarımız DS-160 formunuzu birlikte doldurarak hata
+                yapmanızı önler ve vize onay şansınızı artırır.
               </p>
               <Link
                 href="/basvuru"
                 className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
               >
-                Ucretsiz Danismanlik Al
+                Ücretsiz Danışmanlık Al
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </Link>
             </div>
@@ -384,12 +384,12 @@ export default function DS160() {
       <section className="py-20 lg:py-28 bg-sand/30">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-navy mb-8">Ilgili Rehberler</h2>
+            <h2 className="text-2xl font-bold text-navy mb-8">İlgili Rehberler</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize nedir, nasil alinir, tum detaylar" },
-                { href: "/j1-vize-mulakat-sorulari", title: "Mulakat Sorulari", desc: "En cok sorulan J1 vize mulakat sorulari" },
-                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Basvurusu", desc: "ABD vize turleri ve genel basvuru rehberi" },
+                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize nedir, nasıl alınır, tüm detaylar" },
+                { href: "/j1-vize-mulakat-sorulari", title: "Mülakat Soruları", desc: "En çok sorulan J1 vize mülakat soruları" },
+                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Başvurusu", desc: "ABD vize türleri ve genel başvuru rehberi" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="group block p-6 bg-white rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg transition-all duration-300">
                   <h3 className="font-bold text-navy mb-1 group-hover:text-crimson transition-colors">

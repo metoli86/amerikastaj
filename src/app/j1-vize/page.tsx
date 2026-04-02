@@ -4,48 +4,48 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const documents = [
-  "Gecerli pasaport (vize suresi boyunca gecerli olmali)",
-  "DS-2019 formu (sponsor kurulustan alinir)",
-  "DS-160 onay sayfasi",
-  "SEVIS odeme makbuzu (I-901)",
-  "Vize basvuru ucreti odeme makbuzu (MRV)",
-  "Vesikalik fotograf (5x5 cm, beyaz arkaplan)",
-  "Ogrenci belgesi veya diploma",
+  "Geçerli pasaport (vize süresi boyunca geçerli olmalı)",
+  "DS-2019 formu (sponsor kuruluştan alınır)",
+  "DS-160 onay sayfası",
+  "SEVIS ödeme makbuzu (I-901)",
+  "Vize başvuru ücreti ödeme makbuzu (MRV)",
+  "Vesikalık fotoğraf (5x5 cm, beyaz arkaplan)",
+  "Öğrenci belgesi veya diploma",
   "Transkript",
-  "Banka hesap dokumu",
-  "Is teklif mektubu (Training/Internship Placement Plan - DS-7002)",
+  "Banka hesap dökümü",
+  "İş teklif mektubu (Training/Internship Placement Plan - DS-7002)",
 ];
 
 const visaSteps = [
   {
     step: "01",
-    title: "Sponsor Kurulus Secimi",
-    description: "ABD Disisleri Bakanligi onayli bir sponsor kurulus ile calismaniz gerekir. Biz sizi uygun sponsor kurulusla eslestiriyoruz.",
+    title: "Sponsor Kuruluş Seçimi",
+    description: "ABD Dışişleri Bakanlığı onaylı bir sponsor kuruluş ile çalışmanız gerekir. Biz sizi uygun sponsor kuruluşla eşleştiriyoruz.",
   },
   {
     step: "02",
     title: "DS-2019 Belgesi",
-    description: "Sponsor kurulus tarafindan hazirlanan DS-2019, J1 vize basvurunuzun temel belgesidir. Is eslestirmeniz tamamlandiktan sonra duzenlenir.",
+    description: "Sponsor kuruluş tarafından hazırlanan DS-2019, J1 vize başvurunuzun temel belgesidir. İş eşleştirmeniz tamamlandıktan sonra düzenlenir.",
   },
   {
     step: "03",
-    title: "SEVIS Ucreti Odeme",
-    description: "I-901 SEVIS ucretini ($220) ABD Ic Guvenlik Bakanligi web sitesinden odersiniz. Odeme makbuzunu vize mulakatina goturursiniz.",
+    title: "SEVIS Ücreti Ödeme",
+    description: "I-901 SEVIS ücretini ($220) ABD İç Güvenlik Bakanlığı web sitesinden ödersiniz. Ödeme makbuzunu vize mülakatına götürürsünüz.",
   },
   {
     step: "04",
     title: "DS-160 Formu",
-    description: "Online vize basvuru formunu eksiksiz doldurursinuz. Onay sayfasini ciktisi alinarak mulakata getirilir.",
+    description: "Online vize başvuru formunu eksiksiz doldurursunuz. Onay sayfasını çıktısı alınarak mülakata getirilir.",
   },
   {
     step: "05",
-    title: "Vize Mulakat Randevusu",
-    description: "ABD Buyukelciligi veya Konsoloslugundan randevu alinir. Istanbul veya Ankara konsoloslugunda mulakat yapilir.",
+    title: "Vize Mülakat Randevusu",
+    description: "ABD Büyükelçiliği veya Konsolosluğundan randevu alınır. İstanbul veya Ankara konsolosluğunda mülakat yapılır.",
   },
   {
     step: "06",
-    title: "Vize Mulakati",
-    description: "Konsoloslukta kisa bir mulakat yapilir. Programiniz, is yeriniz ve planlariniz hakkinda sorular sorulur.",
+    title: "Vize Mülakatı",
+    description: "Konsoloslukta kısa bir mülakat yapılır. Programınız, iş yeriniz ve planlarınız hakkında sorular sorulur.",
   },
 ];
 
@@ -61,12 +61,12 @@ export default function J1Vize() {
               Vize Rehberi
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              J1 Vize Nedir? Nasil Alinir?
+              J1 Vize Nedir? Nasıl Alınır?
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              J1 vizesi, ABD Disisleri Bakanligi tarafindan duzenlenen kulturel
-              degisim programi kapsaminda verilen gecici calisma vizesidir. Staj
-              (Internship) ve egitim (Trainee) kategorileri mevcuttur.
+              J1 vizesi, ABD Dışişleri Bakanlığı tarafından düzenlenen kültürel
+              değişim programı kapsamında verilen geçici çalışma vizesidir. Staj
+              (Internship) ve eğitim (Trainee) kategorileri mevcuttur.
             </p>
           </ScrollReveal>
         </div>
@@ -78,27 +78,27 @@ export default function J1Vize() {
           <div className="max-w-3xl">
             <ScrollReveal>
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                J1 Vizesi Hakkinda
+                J1 Vizesi Hakkında
               </h2>
               <div className="prose prose-slate max-w-none space-y-4 text-slate leading-relaxed">
                 <p>
-                  J1 vizesi (Exchange Visitor Visa), Amerika Birlesik Devletleri
-                  tarafindan kulturel degisim programlari kapsaminda verilen
-                  gocu-olmayan (non-immigrant) vize turudur. Bu vize, katilimcilarin
-                  ABDde staj yapmasina, egitim almasina veya kulturel degisim
-                  programlarina katilmasina olanak tanir.
+                  J1 vizesi (Exchange Visitor Visa), Amerika Birleşik Devletleri
+                  tarafından kültürel değişim programları kapsamında verilen
+                  göçü-olmayan (non-immigrant) vize türüdür. Bu vize, katılımcıların
+                  ABD&apos;de staj yapmasına, eğitim almasına veya kültürel değişim
+                  programlarına katılmasına olanak tanır.
                 </p>
                 <p>
-                  J1 vize kategorisi altinda <strong>Intern</strong> (stajyer) ve{" "}
-                  <strong>Trainee</strong> (egitmen) olmak uzere iki alt kategori
-                  bulunur. Her iki kategori de katilimcilara Amerikan sirketlerinde
-                  maasli calisma imkani sunar.
+                  J1 vize kategorisi altında <strong>Intern</strong> (stajyer) ve{" "}
+                  <strong>Trainee</strong> (eğitmen) olmak üzere iki alt kategori
+                  bulunur. Her iki kategori de katılımcılara Amerikan şirketlerinde
+                  maaşlı çalışma imkanı sunar.
                 </p>
                 <p>
-                  J1 vize programi ABD Disisleri Bakanligi (Department of State)
-                  tarafindan denetlenir ve onayli sponsor kuruluslar araciligiyla
-                  yonetilir. Programin temel amaci, katilimcilarin mesleki becerilerini
-                  gelistirmesi ve kulturel degisimi tesvik etmesidir.
+                  J1 vize programı ABD Dışişleri Bakanlığı (Department of State)
+                  tarafından denetlenir ve onaylı sponsor kuruluşlar aracılığıyla
+                  yönetilir. Programın temel amacı, katılımcıların mesleki becerilerini
+                  geliştirmesi ve kültürel değişimi teşvik etmesidir.
                 </p>
               </div>
             </ScrollReveal>
@@ -112,10 +112,10 @@ export default function J1Vize() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Adim Adim
+                Adım Adım
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                J1 Vize Basvuru Sureci
+                J1 Vize Başvuru Süreci
               </h2>
             </div>
           </ScrollReveal>
@@ -148,7 +148,7 @@ export default function J1Vize() {
                 Gerekli Belgeler
               </h2>
               <p className="text-slate leading-relaxed mb-10">
-                J1 vize mulakati icin asagidaki belgeleri hazirlaman gerekir:
+                J1 vize mülakatı için aşağıdaki belgeleri hazırlaman gerekir:
               </p>
               <div className="bg-white rounded-2xl border border-navy/5 divide-y divide-navy/5">
                 {documents.map((doc, i) => (
@@ -171,13 +171,13 @@ export default function J1Vize() {
           <ScrollReveal>
             <div className="max-w-3xl">
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                J1 Vize Ucretleri
+                J1 Vize Ücretleri
               </h2>
               <div className="space-y-4">
                 {[
-                  { label: "Vize Basvuru Ucreti (MRV Fee)", amount: "$185" },
-                  { label: "SEVIS Ucreti (I-901 Fee)", amount: "$220" },
-                  { label: "Toplam Resmi Ucret", amount: "$405" },
+                  { label: "Vize Başvuru Ücreti (MRV Fee)", amount: "$185" },
+                  { label: "SEVIS Ücreti (I-901 Fee)", amount: "$220" },
+                  { label: "Toplam Resmi Ücret", amount: "$405" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center justify-between p-5 bg-sand/50 rounded-xl">
                     <span className="text-sm font-medium text-navy">{item.label}</span>
@@ -186,10 +186,10 @@ export default function J1Vize() {
                 ))}
               </div>
               <p className="text-sm text-slate mt-6 leading-relaxed">
-                Bu ucretler ABD hukumeti ve ilgili kurumlara dogrudan odenir. Program
-                danismanlik ucretimiz icin{" "}
+                Bu ücretler ABD hükümeti ve ilgili kurumlara doğrudan ödenir. Program
+                danışmanlık ücretimiz için{" "}
                 <Link href="/ucretler" className="text-navy font-semibold hover:text-crimson transition-colors">
-                  ucretler sayfamizi
+                  ücretler sayfamızı
                 </Link>{" "}
                 inceleyebilirsiniz.
               </p>
@@ -202,12 +202,12 @@ export default function J1Vize() {
       <section className="py-20 lg:py-28 bg-sand/30">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-navy mb-8">Ilgili Rehberler</h2>
+            <h2 className="text-2xl font-bold text-navy mb-8">İlgili Rehberler</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { href: "/j1-vize-mulakat-sorulari", title: "J1 Vize Mulakat Sorulari", desc: "En cok sorulan sorular ve ornek cevaplar" },
-                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adim adim doldurma kilavuzu" },
-                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Basvurusu", desc: "Genel ABD vize sureci ve randevu alma" },
+                { href: "/j1-vize-mulakat-sorulari", title: "J1 Vize Mülakat Soruları", desc: "En çok sorulan sorular ve örnek cevaplar" },
+                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adım adım doldurma kılavuzu" },
+                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Başvurusu", desc: "Genel ABD vize süreci ve randevu alma" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="group block p-6 bg-white rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg transition-all duration-300">
                   <h3 className="font-bold text-navy mb-1 group-hover:text-crimson transition-colors">

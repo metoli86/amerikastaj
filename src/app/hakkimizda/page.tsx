@@ -4,17 +4,17 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const stats = [
-  { number: "500+", label: "Basarili Stajyer" },
-  { number: "12+", label: "Yil Deneyim" },
-  { number: "%98", label: "Vize Onay Orani" },
-  { number: "50+", label: "ABD Partner Sirket" },
+  { number: "500+", label: "Başarılı Stajyer" },
+  { number: "12+", label: "Yıl Deneyim" },
+  { number: "%98", label: "Vize Onay Oranı" },
+  { number: "50+", label: "ABD Partner Şirket" },
 ];
 
 const values = [
   {
-    title: "Guvenilirlik",
+    title: "Güvenilirlik",
     description:
-      "12 yili askin tecrubemizle yuzlerce ogrenci ve yeni mezunun ABD staj hayalini gerceklestirdik. Her adimda seffaf, olculebilir ve guvenilir bir suec sunuyoruz. Sorumlulugumuzun bilincinde, her basvuruyu titizlikle yonetiyoruz.",
+      "12 yılı aşkın tecrübemizle yüzlerce öğrenci ve yeni mezunun ABD staj hayalini gerçekleştirdik. Her adımda şeffaf, ölçülebilir ve güvenilir bir süreç sunuyoruz. Sorumluluğumuzun bilincinde, her başvuruyu titizlikle yönetiyoruz.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -22,9 +22,9 @@ const values = [
     ),
   },
   {
-    title: "Seffaflik",
+    title: "Şeffaflık",
     description:
-      "Ucretler, sureler ve surecler konusunda tam seffaflik ilkesiyle calisiyoruz. Gizli maliyet yok, surpriz ucret yok. Basvurunuzun hangi asamada oldugunu her an takip edebilirsiniz. Yaniltici vaatler vermiyoruz.",
+      "Ücretler, süreler ve süreçler konusunda tam şeffaflık ilkesiyle çalışıyoruz. Gizli maliyet yok, sürpriz ücret yok. Başvurunuzun hangi aşamada olduğunu her an takip edebilirsiniz. Yanıltıcı vaatler vermiyoruz.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -34,9 +34,9 @@ const values = [
     ),
   },
   {
-    title: "Kisisel Ilgi",
+    title: "Kişisel İlgi",
     description:
-      "Her katilimciyla birebir calisiyoruz. Toplu degil, kisisellestirilmis danismanlik sunuyoruz. Kariyerinize, hedefinize ve profilinize uygun staj eslestirmesi yapiyoruz. Sizi bir numara degil, bir birey olarak goruyoruz.",
+      "Her katılımcıyla birebir çalışıyoruz. Toplu değil, kişiselleştirilmiş danışmanlık sunuyoruz. Kariyerinize, hedefinize ve profilinize uygun staj eşleştirmesi yapıyoruz. Sizi bir numara değil, bir birey olarak görüyoruz.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
@@ -45,9 +45,9 @@ const values = [
     ),
   },
   {
-    title: "Uzmanlik",
+    title: "Uzmanlık",
     description:
-      "J1 vize programi ve ABD staj sureclerinde Turkiyenin en deneyimli ekibiydiz. ABD Disisleri Bakanligi onayli sponsor kuruluslarla dogrudan calismiyoruz. Vize, is eslestirme ve kulturel uyum konularinda derin bilgi birikimimiz var.",
+      "J1 vize programı ve ABD staj süreçlerinde Türkiye'nin en deneyimli ekibiyiz. ABD Dışişleri Bakanlığı onaylı sponsor kuruluşlarla doğrudan çalışıyoruz. Vize, iş eşleştirme ve kültürel uyum konularında derin bilgi birikimimiz var.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
@@ -59,33 +59,33 @@ const values = [
 const timeline = [
   {
     year: "2012",
-    title: "Kurulusu",
-    description: "Yurtdisi egitim ve staj danismanligi alaninda hizmet vermeye basladik.",
+    title: "Kuruluş",
+    description: "Yurtdışı eğitim ve staj danışmanlığı alanında hizmet vermeye başladık.",
   },
   {
     year: "2015",
     title: "100. Stajyer",
-    description: "ABDde basarili stajini tamamlayan 100. katilimcimiza ulastik.",
+    description: "ABD'de başarılı stajını tamamlayan 100. katılımcımıza ulaştık.",
   },
   {
     year: "2018",
-    title: "Partner Agi Genisledi",
-    description: "ABDdeki partner sirket agimizi 30+ sirkete genislettik.",
+    title: "Partner Ağı Genişledi",
+    description: "ABD'deki partner şirket ağımızı 30+ şirkete genişlettik.",
   },
   {
     year: "2020",
-    title: "Online Danimanlik",
-    description: "Pandemi surecinde tum danismanlik hizmetlerimizi online ortama tasidik.",
+    title: "Online Danışmanlık",
+    description: "Pandemi sürecinde tüm danışmanlık hizmetlerimizi online ortama taşıdık.",
   },
   {
     year: "2022",
     title: "400+ Stajyer",
-    description: "Toplam 400den fazla katilimciyi ABDde basarili staj programlarina yerlestirdik.",
+    description: "Toplam 400'den fazla katılımcıyı ABD'de başarılı staj programlarına yerleştirdik.",
   },
   {
     year: "2024",
-    title: "Yeni Donem",
-    description: "50+ partner sirket, genislenmis sektor yelpazesi ve artan vize onay oraniyla buyumeye devam ediyoruz.",
+    title: "Yeni Dönem",
+    description: "50+ partner şirket, genişlenmiş sektör yelpazesi ve artan vize onay oranıyla büyümeye devam ediyoruz.",
   },
 ];
 
@@ -101,12 +101,12 @@ export default function Hakkimizda() {
               Biz Kimiz
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Hakkimizda
+              Hakkımızda
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              Amerikastaj olarak 12 yili askin suredir Turk ogrenci ve yeni
-              mezunlarinin ABDde staj yapma hayallerini gercege donusturuyoruz.
-              Her adimda yaninizdayiz.
+              Amerikastaj olarak 12 yılı aşkın süredir Türk öğrenci ve yeni
+              mezunlarının ABD&apos;de staj yapma hayallerini gerçeğe dönüştürüyoruz.
+              Her adımda yanınızdayız.
             </p>
           </ScrollReveal>
         </div>
@@ -140,24 +140,24 @@ export default function Hakkimizda() {
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  Amerikastaj, ABDde staj deneyimi yasamis bir ekibin
-                  &ldquo;bu sureci daha kolay ve gvenilir hale getirebiliriz&rdquo;
-                  inanci ile kuruldu. Kendi staj surecimizdeki zorluklari, bilgi
-                  eksikliklerini ve yanlis yonlendirmeleri bizzat yasayarak, ayni
-                  hatalarin baskalarinin basina gelmemesi icin yola ciktik.
+                  Amerikastaj, ABD&apos;de staj deneyimi yaşamış bir ekibin
+                  &ldquo;bu süreci daha kolay ve güvenilir hale getirebiliriz&rdquo;
+                  inancı ile kuruldu. Kendi staj sürecimizdeki zorlukları, bilgi
+                  eksikliklerini ve yanlış yönlendirmeleri bizzat yaşayarak, aynı
+                  hataların başkalarının başına gelmemesi için yola çıktık.
                 </p>
                 <p>
-                  2012 yilindan bu yana yuzlerce universite ogrencisi ve yeni
-                  mezuna ABDde staj yapma firsati sunduk. Sadece vize danismanligi
-                  degil, is eslestirme, kulturel hazilik, konaklama destegi ve
-                  ABDde yasama adaptasyon konularinda kapsamli bir hizmet
+                  2012 yılından bu yana yüzlerce üniversite öğrencisi ve yeni
+                  mezuna ABD&apos;de staj yapma fırsatı sunduk. Sadece vize danışmanlığı
+                  değil, iş eşleştirme, kültürel hazırlık, konaklama desteği ve
+                  ABD&apos;de yaşama adaptasyon konularında kapsamlı bir hizmet
                   sunuyoruz.
                 </p>
                 <p>
-                  Amacimiz sadece ABDye gitmek degil, orada anlamli bir deneyim
-                  yasanmasi ve kariyerinize gercek katma deger saglayan bir staj
-                  donemi gecirmenizdir. Her katilimcimizin basarisi, bizim
-                  basarimizdir.
+                  Amacımız sadece ABD&apos;ye gitmek değil, orada anlamlı bir deneyim
+                  yaşanması ve kariyerinize gerçek katma değer sağlayan bir staj
+                  dönemi geçirmenizdir. Her katılımcımızın başarısı, bizim
+                  başarımızdır.
                 </p>
               </div>
             </ScrollReveal>
@@ -175,18 +175,18 @@ export default function Hakkimizda() {
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  Turk genclerinin uluslararasi arenada rekabet edebilecek
-                  donanima sahip olmalari icin ABDde kaliteli staj deneyimi
-                  yasamalarini saglamak. Her adayin profiline ve hedeflerine
-                  uygun, kisisellestirilmis bir yol haritasi cikararak en iyi
+                  Türk gençlerinin uluslararası arenada rekabet edebilecek
+                  donanıma sahip olmaları için ABD&apos;de kaliteli staj deneyimi
+                  yaşamalarını sağlamak. Her adayın profiline ve hedeflerine
+                  uygun, kişiselleştirilmiş bir yol haritası çıkararak en iyi
                   sonucu elde etmesini hedefliyoruz.
                 </p>
                 <p>
-                  Sadece bir danismanlik firmasi degil, katilimcilarimizin ABD
-                  seruvenleriinde gercek bir partner olarak konumlaniyoruz.
-                  Basvuru oncesinden staj sonrasina kadar her asamada destek
-                  sunarak, genclerimizin dunya vatandasi olmassina katki
-                  sagliyoruz.
+                  Sadece bir danışmanlık firması değil, katılımcılarımızın ABD
+                  serüvenlerinde gerçek bir partner olarak konumlanıyoruz.
+                  Başvuru öncesinden staj sonrasına kadar her aşamada destek
+                  sunarak, gençlerimizin dünya vatandaşı olmasına katkı
+                  sağlıyoruz.
                 </p>
               </div>
             </ScrollReveal>
@@ -200,10 +200,10 @@ export default function Hakkimizda() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Degerlerimiz
+                Değerlerimiz
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                Bizi Biz Yapan Degerler
+                Bizi Biz Yapan Değerler
               </h2>
             </div>
           </ScrollReveal>
@@ -230,10 +230,10 @@ export default function Hakkimizda() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Yolculugumuz
+                Yolculuğumuz
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                Zaman Cizelgesi
+                Zaman Çizelgesi
               </h2>
             </div>
           </ScrollReveal>
@@ -271,14 +271,14 @@ export default function Hakkimizda() {
               </h2>
               <div className="space-y-4">
                 {[
-                  "ABD Disisleri Bakanligi onayli sponsor kuruluslarla dogrudan calisiyoruz",
-                  "Her katilimciya ozel kisisellestirilmis danismanlik sunuyoruz",
-                  "Vize hazirlik, mulakat simulasyonu ve belge kontrol hizmeti veriyoruz",
-                  "ABDdeki 50+ partner sirketle is eslestirme yapiyoruz",
-                  "Staj oncesi, sirasi ve sonrasinda kesintisiz destek sagliyoruz",
-                  "%98 vize onay orani ile sektordeki en yuksek basari oranina sahibiz",
-                  "Konaklama, ulasim ve kulturel uyum konularinda rehberlik yapiyoruz",
-                  "Mezun agimiz sayesinde ABDdeki Turk topluluguyla baglanti kuruyorsunuz",
+                  "ABD Dışişleri Bakanlığı onaylı sponsor kuruluşlarla doğrudan çalışıyoruz",
+                  "Her katılımcıya özel kişiselleştirilmiş danışmanlık sunuyoruz",
+                  "Vize hazırlık, mülakat simülasyonu ve belge kontrol hizmeti veriyoruz",
+                  "ABD'deki 50+ partner şirketle iş eşleştirme yapıyoruz",
+                  "Staj öncesi, sırası ve sonrasında kesintisiz destek sağlıyoruz",
+                  "%98 vize onay oranı ile sektördeki en yüksek başarı oranına sahibiz",
+                  "Konaklama, ulaşım ve kültürel uyum konularında rehberlik yapıyoruz",
+                  "Mezun ağımız sayesinde ABD'deki Türk topluluğuyla bağlantı kuruyorsunuz",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <span className="w-5 h-5 rounded-full bg-crimson/10 flex items-center justify-center shrink-0 mt-0.5">
@@ -301,26 +301,26 @@ export default function Hakkimizda() {
           <ScrollReveal>
             <div className="bg-navy rounded-2xl p-10 lg:p-16 text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-white mb-4">
-                ABD Staj Maceraniza Baslayin
+                ABD Staj Maceranıza Başlayın
               </h2>
               <p className="text-white/70 max-w-xl mx-auto mb-8">
-                500den fazla basarili katilimcimiza siz de katilin. Uzman
-                ekibimiz hayalinizdeki staj deneyimini gercege donusturmeniz
-                icin yaniniizda.
+                500&apos;den fazla başarılı katılımcımıza siz de katılın. Uzman
+                ekibimiz hayalinizdeki staj deneyimini gerçeğe dönüştürmeniz
+                için yanınızda.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/basvuru"
                   className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
                 >
-                  Ucretsiz Danismanlik Al
+                  Ücretsiz Danışmanlık Al
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
                 <Link
                   href="/iletisim"
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white px-8 py-4 rounded-xl font-semibold border border-white/20 hover:border-white/40 transition-colors"
                 >
-                  Bize Ulasin
+                  Bize Ulaşın
                 </Link>
               </div>
             </div>

@@ -8,7 +8,7 @@ const contactInfo = [
   {
     title: "Telefon",
     value: "+90 (212) 555 00 00",
-    description: "Hafta ici 09:00 - 18:00 arasi arayabilirsiniz.",
+    description: "Hafta içi 09:00 - 18:00 arası arayabilirsiniz.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
@@ -18,7 +18,7 @@ const contactInfo = [
   {
     title: "WhatsApp",
     value: "+90 (532) 555 00 00",
-    description: "7/24 mesaj gonderebilirsiniz. En kisa surede donus yapariz.",
+    description: "7/24 mesaj gönderebilirsiniz. En kısa sürede dönüş yaparız.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
@@ -28,7 +28,7 @@ const contactInfo = [
   {
     title: "E-posta",
     value: "info@amerikastaj.com",
-    description: "Detayli sorulariniz icin e-posta gonderebilirsiniz.",
+    description: "Detaylı sorularınız için e-posta gönderebilirsiniz.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -38,8 +38,8 @@ const contactInfo = [
   },
   {
     title: "Adres",
-    value: "Levent, Istanbul",
-    description: "Levent Mah. Buyukdere Cad. No:185, 34394 Sisli/Istanbul",
+    value: "Levent, İstanbul",
+    description: "Levent Mah. Büyükdere Cad. No:185, 34394 Şişli/İstanbul",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -52,7 +52,7 @@ const contactInfo = [
 const officeHours = [
   { day: "Pazartesi - Cuma", hours: "09:00 - 18:00" },
   { day: "Cumartesi", hours: "10:00 - 14:00" },
-  { day: "Pazar", hours: "Kapali" },
+  { day: "Pazar", hours: "Kapalı" },
 ];
 
 export default function Iletisim() {
@@ -79,15 +79,15 @@ export default function Iletisim() {
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-4">
-              Bize Ulasin
+              Bize Ulaşın
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Iletisim
+              İletişim
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              ABD staj programi hakkinda sorulariniz mi var? Uzman
-              danismanlarimiz size yardimci olmaktan mutluluk duyar. Bize
-              dilediginiz kanaldan ulasabilirsiniz.
+              ABD staj programı hakkında sorularınız mı var? Uzman
+              danışmanlarımız size yardımcı olmaktan mutluluk duyar. Bize
+              dilediğiniz kanaldan ulaşabilirsiniz.
             </p>
           </ScrollReveal>
         </div>
@@ -123,11 +123,11 @@ export default function Iletisim() {
             <div className="lg:col-span-3">
               <ScrollReveal>
                 <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-2">
-                  Bize Yazin
+                  Bize Yazın
                 </h2>
                 <p className="text-slate leading-relaxed mb-8">
-                  Formu doldurun, en kisa surede size donus yapalim. Tum
-                  alanlari doldurmaniz bize daha hizli yardimci olmamizi saglar.
+                  Formu doldurun, en kısa sürede size dönüş yapalım. Tüm
+                  alanları doldurmanız bize daha hızlı yardımcı olmamızı sağlar.
                 </p>
 
                 {submitted ? (
@@ -138,10 +138,10 @@ export default function Iletisim() {
                       </svg>
                     </div>
                     <h3 className="text-xl font-bold text-navy mb-2">
-                      Mesajiniz Gonderildi!
+                      Mesajınız Gönderildi!
                     </h3>
                     <p className="text-slate">
-                      En kisa surede size donus yapacagiz. Tesekkur ederiz.
+                      En kısa sürede size dönüş yapacağız. Teşekkür ederiz.
                     </p>
                   </div>
                 ) : (
@@ -158,7 +158,7 @@ export default function Iletisim() {
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                           className="w-full px-4 py-3 rounded-xl border border-navy/10 bg-white text-navy text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/5 transition-all"
-                          placeholder="Adiniz ve soyadiniz"
+                          placeholder="Adınız ve soyadınız"
                         />
                       </div>
                       <div>
@@ -202,19 +202,19 @@ export default function Iletisim() {
                           onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                           className="w-full px-4 py-3 rounded-xl border border-navy/10 bg-white text-navy text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/5 transition-all"
                         >
-                          <option value="">Konu secin</option>
-                          <option value="staj">Staj Programi Hakkinda</option>
-                          <option value="vize">Vize Sureci</option>
-                          <option value="ucret">Ucretler</option>
-                          <option value="basvuru">Basvuru Durumu</option>
-                          <option value="diger">Diger</option>
+                          <option value="">Konu seçin</option>
+                          <option value="staj">Staj Programı Hakkında</option>
+                          <option value="vize">Vize Süreci</option>
+                          <option value="ucret">Ücretler</option>
+                          <option value="basvuru">Başvuru Durumu</option>
+                          <option value="diger">Diğer</option>
                         </select>
                       </div>
                     </div>
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-navy mb-2">
-                        Mesajiniz *
+                        Mesajınız *
                       </label>
                       <textarea
                         id="message"
@@ -223,7 +223,7 @@ export default function Iletisim() {
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         className="w-full px-4 py-3 rounded-xl border border-navy/10 bg-white text-navy text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/5 transition-all resize-none"
-                        placeholder="Sormak istediginiz her seyi yazabilirsiniz..."
+                        placeholder="Sormak istediğiniz her şeyi yazabilirsiniz..."
                       />
                     </div>
 
@@ -231,7 +231,7 @@ export default function Iletisim() {
                       type="submit"
                       className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
                     >
-                      Mesaj Gonder
+                      Mesaj Gönder
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
                     </button>
                   </form>
@@ -244,7 +244,7 @@ export default function Iletisim() {
               <ScrollReveal delay={0.1}>
                 <div className="p-7 rounded-2xl border border-navy/5 bg-sand/30">
                   <h3 className="text-lg font-bold text-navy mb-5">
-                    Calisma Saatleri
+                    Çalışma Saatleri
                   </h3>
                   <div className="space-y-3">
                     {officeHours.map((item, i) => (
@@ -260,18 +260,18 @@ export default function Iletisim() {
               <ScrollReveal delay={0.2}>
                 <div className="p-7 rounded-2xl border border-navy/5 bg-sand/30">
                   <h3 className="text-lg font-bold text-navy mb-3">
-                    Hizli Basvuru
+                    Hızlı Başvuru
                   </h3>
                   <p className="text-sm text-slate leading-relaxed mb-5">
-                    ABD staj programi icin hemen basvuru yapmak mi
-                    istiyorsunuz? Online basvuru formumuz ile sureci
-                    baslatabilirsiniz.
+                    ABD staj programı için hemen başvuru yapmak mı
+                    istiyorsunuz? Online başvuru formumuz ile süreci
+                    başlatabilirsiniz.
                   </p>
                   <Link
                     href="/basvuru"
                     className="inline-flex items-center gap-2 bg-navy text-white px-6 py-3 rounded-xl text-sm font-semibold hover:bg-navy/90 transition-colors w-full justify-center"
                   >
-                    Basvuru Formuna Git
+                    Başvuru Formuna Git
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                   </Link>
                 </div>
@@ -280,17 +280,17 @@ export default function Iletisim() {
               <ScrollReveal delay={0.3}>
                 <div className="p-7 rounded-2xl border border-navy/5 bg-sand/30">
                   <h3 className="text-lg font-bold text-navy mb-3">
-                    Sikca Sorulan Sorular
+                    Sıkça Sorulan Sorular
                   </h3>
                   <p className="text-sm text-slate leading-relaxed mb-5">
-                    Programimiz hakkinda merak edilen sorularin cevaplarini
-                    SSS sayfamizda bulabilirsiniz.
+                    Programımız hakkında merak edilen soruların cevaplarını
+                    SSS sayfamızda bulabilirsiniz.
                   </p>
                   <Link
                     href="/sss"
                     className="inline-flex items-center gap-2 text-navy text-sm font-semibold hover:text-crimson transition-colors"
                   >
-                    SSS Sayfasina Git
+                    SSS Sayfasına Git
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                   </Link>
                 </div>
@@ -315,10 +315,10 @@ export default function Iletisim() {
                     </svg>
                   </div>
                   <p className="text-sm font-medium text-navy mb-1">
-                    Levent Mah. Buyukdere Cad. No:185
+                    Levent Mah. Büyükdere Cad. No:185
                   </p>
                   <p className="text-sm text-slate">
-                    34394 Sisli/Istanbul, Turkiye
+                    34394 Şişli/İstanbul, Türkiye
                   </p>
                 </div>
               </div>

@@ -8,100 +8,100 @@ const visaTypes = [
     code: "J1",
     name: "Exchange Visitor Visa",
     description:
-      "Kulturel degisim programi kapsaminda staj ve egitim amacli verilen vize. Universitye ogrencileri ve yeni mezunlar icin ideal. 12-18 ay sureli.",
+      "Kültürel değişim programı kapsamında staj ve eğitim amaçlı verilen vize. Üniversite öğrencileri ve yeni mezunlar için ideal. 12-18 ay süreli.",
     duration: "12-18 ay",
-    purpose: "Staj / Egitim",
+    purpose: "Staj / Eğitim",
   },
   {
     code: "B1/B2",
-    name: "Turist / Is Vizesi",
+    name: "Turist / İş Vizesi",
     description:
-      "Kisa sureli is seyahati (B1) veya turizm, aile ziyareti, medikal tedavi (B2) amaciyla verilen vize. Calisma izni icermez.",
+      "Kısa süreli iş seyahati (B1) veya turizm, aile ziyareti, medikal tedavi (B2) amacıyla verilen vize. Çalışma izni içermez.",
     duration: "6 aya kadar",
-    purpose: "Turizm / Is",
+    purpose: "Turizm / İş",
   },
   {
     code: "F1",
     name: "Student Visa",
     description:
-      "ABDde lisans, yuksek lisans veya dil okulu egitimi almak isteyen ogrenciler icin verilen vize. Sinirli calisma izni (CPT/OPT) icerir.",
-    duration: "Egitim suresi",
-    purpose: "Egitim",
+      "ABD'de lisans, yüksek lisans veya dil okulu eğitimi almak isteyen öğrenciler için verilen vize. Sınırlı çalışma izni (CPT/OPT) içerir.",
+    duration: "Eğitim süresi",
+    purpose: "Eğitim",
   },
   {
     code: "H1B",
     name: "Specialty Occupation Visa",
     description:
-      "Uzmanlik gerektiren mesleklerde calisma izni veren vize. Isverenin sponsor olmasi ve kura sistemi gerektirir. En cok talep goren calisma vizesi.",
-    duration: "3+3 yil",
-    purpose: "Profesyonel Calisma",
+      "Uzmanlık gerektiren mesleklerde çalışma izni veren vize. İşverenin sponsor olması ve kura sistemi gerektirir. En çok talep gören çalışma vizesi.",
+    duration: "3+3 yıl",
+    purpose: "Profesyonel Çalışma",
   },
 ];
 
 const applicationSteps = [
   {
     step: "01",
-    title: "Vize Turunu Belirleyin",
+    title: "Vize Türünü Belirleyin",
     description:
-      "Seyahat amaiciniza uygun vize kategorisini secin. Staj icin J1, egitim icin F1, turizm icin B1/B2, calisma icin H1B vize turunu degerlendirin.",
+      "Seyahat amacınıza uygun vize kategorisini seçin. Staj için J1, eğitim için F1, turizm için B1/B2, çalışma için H1B vize türünü değerlendirin.",
   },
   {
     step: "02",
     title: "DS-160 Formunu Doldurun",
     description:
-      "Online vize basvuru formunu ceai.state.gov adresinden doldurun. Form Ingilizce doldurulur ve tum bolumler eksiksiz tamamlanmalidir. Onay sayfasini kaydedin.",
+      "Online vize başvuru formunu ceac.state.gov adresinden doldurun. Form İngilizce doldurulur ve tüm bölümler eksiksiz tamamlanmalıdır. Onay sayfasını kaydedin.",
   },
   {
     step: "03",
-    title: "Vize Ucretini Odeyin",
+    title: "Vize Ücretini Ödeyin",
     description:
-      "MRV vize basvuru ucretini ($185) odeyin. Odeme bankadan veya online olarak yapilabilir. Odeme makbuzunu saklayin.",
+      "MRV vize başvuru ücretini ($185) ödeyin. Ödeme bankadan veya online olarak yapılabilir. Ödeme makbuzunu saklayın.",
   },
   {
     step: "04",
-    title: "Mulakat Randevusu Alin",
+    title: "Mülakat Randevusu Alın",
     description:
-      "ustravels.com uzerinden Istanbul veya Ankara ABD Konsoloslugundan mulakat randevusu alin. Randevu tarihi vize turiine ve sezona gore degisir.",
+      "ustravels.com üzerinden İstanbul veya Ankara ABD Konsolosluğundan mülakat randevusu alın. Randevu tarihi vize türüne ve sezona göre değişir.",
   },
   {
     step: "05",
-    title: "Belgeleri Hazirlayin",
+    title: "Belgeleri Hazırlayın",
     description:
-      "Pasaport, DS-160 onay sayfasi, vize ucret makbuzu, vesikalik fotograf ve vize turune ozel belgeler (kabul mektubu, is teklifi vb.) hazirlayin.",
+      "Pasaport, DS-160 onay sayfası, vize ücret makbuzu, vesikalık fotoğraf ve vize türüne özel belgeler (kabul mektubu, iş teklifi vb.) hazırlayın.",
   },
   {
     step: "06",
-    title: "Mulakata Gidin",
+    title: "Mülakata Gidin",
     description:
-      "Randevu gunununde konsolosluga gidin. Parmak izi alinir ve kisa bir mulakat yapilir. Onaylanan vizeler 5-7 is gunu icerisinde kargoyla teslim edilir.",
+      "Randevu gününde konsolosluğa gidin. Parmak izi alınır ve kısa bir mülakat yapılır. Onaylanan vizeler 5-7 iş günü içerisinde kargoyla teslim edilir.",
   },
 ];
 
 const requiredDocuments = [
-  "Gecerli pasaport (vize suresi + 6 ay gecerlilik)",
-  "DS-160 online formu onay sayfasi",
-  "MRV vize basvuru ucreti makbuzu",
-  "5x5 cm beyaz arkaplanli vesikalik fotograf",
-  "Mulakat randevu onay sayfasi",
-  "Banka hesap dokumleri (son 3-6 ay)",
-  "Is belgesi veya ogrenci belgesi",
-  "Vize turune ozel belgeler (DS-2019, I-20, is teklifi vb.)",
-  "Onceki pasaportlar (varsa eski ABD vizeleri)",
-  "Seyahat plani veya davet mektubu",
+  "Geçerli pasaport (vize süresi + 6 ay geçerlilik)",
+  "DS-160 online formu onay sayfası",
+  "MRV vize başvuru ücreti makbuzu",
+  "5x5 cm beyaz arkaplanlı vesikalık fotoğraf",
+  "Mülakat randevu onay sayfası",
+  "Banka hesap dökümleri (son 3-6 ay)",
+  "İş belgesi veya öğrenci belgesi",
+  "Vize türüne özel belgeler (DS-2019, I-20, iş teklifi vb.)",
+  "Önceki pasaportlar (varsa eski ABD vizeleri)",
+  "Seyahat planı veya davet mektubu",
 ];
 
 const embassyInfo = [
   {
-    city: "Istanbul",
-    address: "Istinye Mahallesi, Kaplcalar Mevkii No:2, 34460 Istinye/Istanbul",
+    city: "İstanbul",
+    address: "İstinye Mahallesi, Kaplıcalar Mevkii No:2, 34460 İstinye/İstanbul",
     phone: "(212) 335 90 00",
-    note: "Turkiyedeki en yogun ABD konsoloslugu. Randevu bekleme suresi daha uzun olabilir.",
+    note: "Türkiye'deki en yoğun ABD konsolosluğu. Randevu bekleme süresi daha uzun olabilir.",
   },
   {
     city: "Ankara",
-    address: "Ataturk Bulvari No:110, 06100 Kavaklidere/Ankara",
+    address: "Atatürk Bulvarı No:110, 06100 Kavaklıdere/Ankara",
     phone: "(312) 455 55 55",
-    note: "Buyukelcilik merkezi. Istanbul a gore randevu bulmak genellikle daha kolaydir.",
+    note: "Büyükelçilik merkezi. İstanbul'a göre randevu bulmak genellikle daha kolaydır.",
   },
 ];
 
@@ -114,15 +114,15 @@ export default function AmerikaVizeBasvurusu() {
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-4">
-              Kapsamli Rehber
+              Kapsamlı Rehber
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Amerika Vize Basvurusu Rehberi
+              Amerika Vize Başvurusu Rehberi
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              Amerika vizesi nasil alinir? ABD vize turleri, basvuru sureci,
-              gerekli belgeler, DS-160 formu, mulakat ipuclari ve guncel vize
-              ucretleri hakkinda bilmeniz gereken her sey bu rehberde.
+              Amerika vizesi nasıl alınır? ABD vize türleri, başvuru süreci,
+              gerekli belgeler, DS-160 formu, mülakat ipuçları ve güncel vize
+              ücretleri hakkında bilmeniz gereken her şey bu rehberde.
             </p>
           </ScrollReveal>
         </div>
@@ -134,26 +134,26 @@ export default function AmerikaVizeBasvurusu() {
           <div className="max-w-3xl">
             <ScrollReveal>
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                Amerika Vizesi Hakkinda Genel Bilgi
+                Amerika Vizesi Hakkında Genel Bilgi
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  Amerika Birlesik Devletlerine seyahat etmek isteyen Turk
-                  vatandaslarinin vize almasi zorunludur. ABD vize sistemi,
-                  seyahat amacina gore farkli kategorilere ayrilmistir. Her vize
-                  turu kendine ozgu basvuru gereksinimleri ve surecleri icerir.
+                  Amerika Birleşik Devletleri&apos;ne seyahat etmek isteyen Türk
+                  vatandaşlarının vize alması zorunludur. ABD vize sistemi,
+                  seyahat amacına göre farklı kategorilere ayrılmıştır. Her vize
+                  türü kendine özgü başvuru gereksinimleri ve süreçleri içerir.
                 </p>
                 <p>
-                  Vize basvuru sureci temel olarak DS-160 online formunun
-                  doldurulmasi, basvuru ucretinin odenmesi, konsolosluk mulakat
-                  randevusu alinmasi ve yuz yuze mulakattan olusur. Tum surecin
-                  tamamlanmasi ortalama 2-8 hafta surer, ancak yogun donemlerde
-                  bu sure uzayabilir.
+                  Vize başvuru süreci temel olarak DS-160 online formunun
+                  doldurulması, başvuru ücretinin ödenmesi, konsolosluk mülakat
+                  randevusu alınması ve yüz yüze mülakattan oluşur. Tüm sürecin
+                  tamamlanması ortalama 2-8 hafta sürer, ancak yoğun dönemlerde
+                  bu süre uzayabilir.
                 </p>
                 <p>
-                  Turkiyede ABD vize basvurulari Istanbul ve Ankara konsolosluklari
-                  uzerinden yapilmaktadir. Basvuru sureci online baslar ve
-                  konsolosluk mulakatindan sonra sonuclanir.
+                  Türkiye&apos;de ABD vize başvuruları İstanbul ve Ankara konsoloslukları
+                  üzerinden yapılmaktadır. Başvuru süreci online başlar ve
+                  konsolosluk mülakatından sonra sonuçlanır.
                 </p>
               </div>
             </ScrollReveal>
@@ -167,10 +167,10 @@ export default function AmerikaVizeBasvurusu() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Amerika Vize Turleri
+                Amerika Vize Türleri
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                Hangi Vize Turune Ihtiyaciniz Var?
+                Hangi Vize Türüne İhtiyacınız Var?
               </h2>
             </div>
           </ScrollReveal>
@@ -196,7 +196,7 @@ export default function AmerikaVizeBasvurusu() {
                   </p>
                   <div className="flex items-center gap-4 pt-4 border-t border-navy/5">
                     <span className="text-xs text-slate">
-                      Sure: <span className="font-semibold text-navy">{visa.duration}</span>
+                      Süre: <span className="font-semibold text-navy">{visa.duration}</span>
                     </span>
                   </div>
                 </div>
@@ -212,10 +212,10 @@ export default function AmerikaVizeBasvurusu() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Adim Adim
+                Adım Adım
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                ABD Vize Basvuru Sureci
+                ABD Vize Başvuru Süreci
               </h2>
             </div>
           </ScrollReveal>
@@ -249,18 +249,18 @@ export default function AmerikaVizeBasvurusu() {
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  DS-160, ABD gocu-olmayan vize basvurusu icin doldurulmasi
-                  zorunlu olan online formudur. Kisisel bilgileriniz, seyahat
-                  gecmisiniz, egitim ve is bilgileriniz gibi detaylari icerir.
+                  DS-160, ABD göçü-olmayan vize başvurusu için doldurulması
+                  zorunlu olan online formudur. Kişisel bilgileriniz, seyahat
+                  geçmişiniz, eğitim ve iş bilgileriniz gibi detayları içerir.
                 </p>
                 <p>
                   Form ceac.state.gov adresinden doldurulur ve tamamen
-                  Ingilizce dir. Ortalama 45-90 dakika icerisinde tamamlanabilir.
-                  Formun her sayfasi otomatik olarak kaydedilir ve daha sonra
+                  İngilizce&apos;dir. Ortalama 45-90 dakika içerisinde tamamlanabilir.
+                  Formun her sayfası otomatik olarak kaydedilir ve daha sonra
                   devam edebilirsiniz.
                 </p>
                 <p>
-                  DS-160 formunun detayli doldurma kilavuzu icin{" "}
+                  DS-160 formunun detaylı doldurma kılavuzu için{" "}
                   <Link href="/ds-160" className="text-navy font-semibold hover:text-crimson transition-colors underline underline-offset-4">
                     DS-160 rehberimizi
                   </Link>{" "}
@@ -281,7 +281,7 @@ export default function AmerikaVizeBasvurusu() {
                 Gerekli Belgeler
               </h2>
               <p className="text-slate leading-relaxed mb-10">
-                ABD vize mulakati icin hazirlamaniz gereken temel belgeler:
+                ABD vize mülakatı için hazırlamanız gereken temel belgeler:
               </p>
               <div className="bg-white rounded-2xl border border-navy/5 divide-y divide-navy/5">
                 {requiredDocuments.map((doc, i) => (
@@ -304,29 +304,29 @@ export default function AmerikaVizeBasvurusu() {
           <div className="max-w-3xl">
             <ScrollReveal>
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                Mulakat Ipuclari
+                Mülakat İpuçları
               </h2>
               <div className="space-y-4">
                 {[
                   {
-                    title: "Sorulara kisa ve net cevap verin",
-                    desc: "Konsolosluk mulakatlari genellikle 2-5 dakika surer. Uzun aciklamalar yerine ozu bilgi verin.",
+                    title: "Sorulara kısa ve net cevap verin",
+                    desc: "Konsolosluk mülakatları genellikle 2-5 dakika sürer. Uzun açıklamalar yerine özü bilgi verin.",
                   },
                   {
-                    title: "Turkiyeye donus niyetinizi kanitlayin",
-                    desc: "Aile baglari, is firsatlari, mulk veya devam eden egitim gibi somut nedenler sunun.",
+                    title: "Türkiye'ye dönüş niyetinizi kanıtlayın",
+                    desc: "Aile bağları, iş fırsatları, mülk veya devam eden eğitim gibi somut nedenler sunun.",
                   },
                   {
-                    title: "Tum belgeleri duzenli hazirlayin",
-                    desc: "Belgelerinizi kategoriye gore dosyalayin. Istendiginde hizlica ulasabilmeniz gerekir.",
+                    title: "Tüm belgeleri düzenli hazırlayın",
+                    desc: "Belgelerinizi kategoriye göre dosyalayın. İstendiğinde hızlıca ulaşabilmeniz gerekir.",
                   },
                   {
-                    title: "Ingilizce pratigi yapin",
-                    desc: "Mulakat Ingilizce yapilir. Kendinizi tanitma ve seyahat amaicinizi Ingilizce anlatma pratiigi yapin.",
+                    title: "İngilizce pratiği yapın",
+                    desc: "Mülakat İngilizce yapılır. Kendinizi tanıtma ve seyahat amacınızı İngilizce anlatma pratiği yapın.",
                   },
                   {
-                    title: "Samimi ve tutarli olun",
-                    desc: "Konsolosluk gorevlileri tutarsizliklari kolayca fark eder. Her zaman dogruyu soyleyin.",
+                    title: "Samimi ve tutarlı olun",
+                    desc: "Konsolosluk görevlileri tutarsızlıkları kolayca fark eder. Her zaman doğruyu söyleyin.",
                   },
                 ].map((tip, i) => (
                   <div key={i} className="p-5 bg-sand/50 rounded-xl">
@@ -346,19 +346,19 @@ export default function AmerikaVizeBasvurusu() {
           <ScrollReveal>
             <div className="max-w-3xl">
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                ABD Vize Ucretleri (2024-2025)
+                ABD Vize Ücretleri (2024-2025)
               </h2>
               <p className="text-slate leading-relaxed mb-8">
-                ABD vize basvuru ucretleri vize turune gore degisir. Ucretler
-                ABD Dolari uzerinden belirlenir ve iade edilmez.
+                ABD vize başvuru ücretleri vize türüne göre değişir. Ücretler
+                ABD Doları üzerinden belirlenir ve iade edilmez.
               </p>
               <div className="space-y-4">
                 {[
-                  { label: "B1/B2 Turist / Is Vizesi (MRV Fee)", amount: "$185" },
-                  { label: "F1 Ogrenci Vizesi (MRV Fee)", amount: "$185" },
-                  { label: "J1 Degisim Vizesi (MRV Fee)", amount: "$185" },
-                  { label: "H1B Calisma Vizesi (MRV Fee)", amount: "$205" },
-                  { label: "SEVIS Ucreti (J1/F1 icin - I-901)", amount: "$220 / $350" },
+                  { label: "B1/B2 Turist / İş Vizesi (MRV Fee)", amount: "$185" },
+                  { label: "F1 Öğrenci Vizesi (MRV Fee)", amount: "$185" },
+                  { label: "J1 Değişim Vizesi (MRV Fee)", amount: "$185" },
+                  { label: "H1B Çalışma Vizesi (MRV Fee)", amount: "$205" },
+                  { label: "SEVIS Ücreti (J1/F1 için - I-901)", amount: "$220 / $350" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center justify-between p-5 bg-white rounded-xl border border-navy/5">
                     <span className="text-sm font-medium text-navy">{item.label}</span>
@@ -367,10 +367,10 @@ export default function AmerikaVizeBasvurusu() {
                 ))}
               </div>
               <p className="text-sm text-slate mt-6 leading-relaxed">
-                Not: Ucretler degiskenlik gosterebilir. Guncel ucretler icin ABD
-                Disisleri Bakanligi web sitesini kontrol ediniz. Vize basvuru
-                ucreti iade edilmez, basvurunuz reddedilse bile ucret geri
-                odenenmez.
+                Not: Ücretler değişkenlik gösterebilir. Güncel ücretler için ABD
+                Dışişleri Bakanlığı web sitesini kontrol ediniz. Vize başvuru
+                ücreti iade edilmez, başvurunuz reddedilse bile ücret geri
+                ödenmez.
               </p>
             </div>
           </ScrollReveal>
@@ -386,7 +386,7 @@ export default function AmerikaVizeBasvurusu() {
                 Konsolosluk Bilgileri
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                ABD Konsolosluklari - Turkiye
+                ABD Konsoloslukları - Türkiye
               </h2>
             </div>
           </ScrollReveal>
@@ -420,12 +420,12 @@ export default function AmerikaVizeBasvurusu() {
             <div className="mt-8 p-6 bg-sand/30 rounded-2xl">
               <h3 className="font-bold text-navy mb-2">ABD Vize Randevu Alma</h3>
               <p className="text-sm text-slate leading-relaxed">
-                Vize mulakat randevusu{" "}
+                Vize mülakat randevusu{" "}
                 <span className="font-semibold text-navy">ustravels.com</span>{" "}
-                uzerinden alinir. Randevu almak icin DS-160 onay numaraniz ve MRV
-                ucret makbuz numaraniz gereklidir. Yogun donemlerde (yaz aylari)
-                randevu bulmak zorlasbilir, bu yuzden planlananizi erken yapmaniz
-                onerilir.
+                üzerinden alınır. Randevu almak için DS-160 onay numaranız ve MRV
+                ücret makbuz numaranız gereklidir. Yoğun dönemlerde (yaz ayları)
+                randevu bulmak zorlaşabilir, bu yüzden planlamanızı erken yapmanız
+                önerilir.
               </p>
             </div>
           </ScrollReveal>
@@ -438,17 +438,17 @@ export default function AmerikaVizeBasvurusu() {
           <ScrollReveal>
             <div className="bg-navy rounded-2xl p-10 lg:p-16 text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-white mb-4">
-                ABD Vize Basvurunuzda Yaninizdayiz
+                ABD Vize Başvurunuzda Yanınızdayız
               </h2>
               <p className="text-white/70 max-w-xl mx-auto mb-8">
-                J1 vize programi ile ABDde staj yapmak mi istiyorsunuz?
-                Uzman ekibimiz tum basvuru surecinde size rehberlik eder.
+                J1 vize programı ile ABD&apos;de staj yapmak mı istiyorsunuz?
+                Uzman ekibimiz tüm başvuru sürecinde size rehberlik eder.
               </p>
               <Link
                 href="/basvuru"
                 className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
               >
-                Ucretsiz Danismanlik Al
+                Ücretsiz Danışmanlık Al
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </Link>
             </div>
@@ -460,12 +460,12 @@ export default function AmerikaVizeBasvurusu() {
       <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-navy mb-8">Ilgili Rehberler</h2>
+            <h2 className="text-2xl font-bold text-navy mb-8">İlgili Rehberler</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize nedir, nasil alinir, tum detaylar" },
-                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adim adim doldurma kilavuzu" },
-                { href: "/j1-vize-mulakat-sorulari", title: "Mulakat Sorulari", desc: "En cok sorulan J1 vize mulakat sorulari" },
+                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize nedir, nasıl alınır, tüm detaylar" },
+                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adım adım doldurma kılavuzu" },
+                { href: "/j1-vize-mulakat-sorulari", title: "Mülakat Soruları", desc: "En çok sorulan J1 vize mülakat soruları" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="group block p-6 bg-white rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg transition-all duration-300">
                   <h3 className="font-bold text-navy mb-1 group-hover:text-crimson transition-colors">

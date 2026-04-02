@@ -14,131 +14,131 @@ const faqItems: FAQItem[] = [
   // Program
   {
     category: "Program",
-    question: "J1 staj programi nedir?",
+    question: "J1 staj programı nedir?",
     answer:
-      "J1 staj programi, ABD Disisleri Bakanligi tarafindan duzenlenen kulturel degisim programi kapsaminda Turk universite ogrencileri ve yeni mezunlarina ABDde maasli staj yapma imkani sunan bir programdir. Program 12-18 ay sureli olup, katilimcilar Amerikan sirketlerinde kendi mesleki alanlarinda calisma firsati elde eder. Program sonunda Turkiyeye donerek edindikleri deneyimi kariyerlerine yansitirlar.",
+      "J1 staj programı, ABD Dışişleri Bakanlığı tarafından düzenlenen kültürel değişim programı kapsamında Türk üniversite öğrencileri ve yeni mezunlarına ABD'de maaşlı staj yapma imkanı sunan bir programdır. Program 12-18 ay süreli olup, katılımcılar Amerikan şirketlerinde kendi mesleki alanlarında çalışma fırsatı elde eder. Program sonunda Türkiye'ye dönerek edindikleri deneyimi kariyerlerine yansıtırlar.",
   },
   {
     category: "Program",
-    question: "Programa kimler basvurabilir?",
+    question: "Programa kimler başvurabilir?",
     answer:
-      "Universitye son sinif ogrencileri, yeni mezunlar (mezuniyetten sonra en fazla 12 ay gecmis olmali) ve 1-5 yil is deneyimine sahip profesyoneller basvurabilir. En az orta duzey Ingilizce bilgisi (B1-B2 seviye) gereklidir. Universite ogrencileri icin Intern, 1+ yil deneyimli profesyoneller icin Trainee kategorisi gecerlidir.",
+      "Üniversite son sınıf öğrencileri, yeni mezunlar (mezuniyetten sonra en fazla 12 ay geçmiş olmalı) ve 1-5 yıl iş deneyimine sahip profesyoneller başvurabilir. En az orta düzey İngilizce bilgisi (B1-B2 seviye) gereklidir. Üniversite öğrencileri için Intern, 1+ yıl deneyimli profesyoneller için Trainee kategorisi geçerlidir.",
   },
   {
     category: "Program",
-    question: "Program ne kadar surer?",
+    question: "Program ne kadar sürer?",
     answer:
-      "Intern (stajyer) kategorisi icin program suresi 12 aya kadar, Trainee (egitmen) kategorisi icin 18 aya kadardir. Kesin sure, calisacaginiz sirket ve DS-2019 belgesinde belirtilen tarihlere gore belirlenir. Cogu katilimci 6-12 ay arasi staj yapar.",
+      "Intern (stajyer) kategorisi için program süresi 12 aya kadar, Trainee (eğitmen) kategorisi için 18 aya kadardır. Kesin süre, çalışacağınız şirket ve DS-2019 belgesinde belirtilen tarihlere göre belirlenir. Çoğu katılımcı 6-12 ay arası staj yapar.",
   },
   {
     category: "Program",
-    question: "Hangi sektorlerde staj yapabilirim?",
+    question: "Hangi sektörlerde staj yapabilirim?",
     answer:
-      "Bilisim/yazilim, finans, pazarlama, muhendislik, otelcilik/turizm, medya/iletisim, uluslararasi ticaret, insan kaynaklari, mimarlik ve daha pek cok sektorde staj imkani mevcuttur. Onemli olan, staj alaninin universite egitimiziniz veya is deneyiminizle uyumlu olmasidir.",
+      "Bilişim/yazılım, finans, pazarlama, mühendislik, otelcilik/turizm, medya/iletişim, uluslararası ticaret, insan kaynakları, mimarlık ve daha pek çok sektörde staj imkanı mevcuttur. Önemli olan, staj alanının üniversite eğitiminiz veya iş deneyiminizle uyumlu olmasıdır.",
   },
   {
     category: "Program",
-    question: "Staj sirasinda maas alacak miyim?",
+    question: "Staj sırasında maaş alacak mıyım?",
     answer:
-      "Evet, J1 programi kapsaminda yapilan stajlar maaslidir. Maas miktari sektore, sehre ve sirket politikasina gore degisir. Stajyerler genellikle saatlik $15-25 arasi ucret alir. Bazi sektorlerde (ozellikle finans ve teknoloji) bu rakam daha yuksek olabilir. Maas detaylari DS-7002 (Training Plan) belgesinde belirtilir.",
+      "Evet, J1 programı kapsamında yapılan stajlar maaşlıdır. Maaş miktarı sektöre, şehre ve şirket politikasına göre değişir. Stajyerler genellikle saatlik $15-25 arası ücret alır. Bazı sektörlerde (özellikle finans ve teknoloji) bu rakam daha yüksek olabilir. Maaş detayları DS-7002 (Training Plan) belgesinde belirtilir.",
   },
   // Vize
   {
     category: "Vize",
-    question: "J1 vize basvuru sureci nasil isler?",
+    question: "J1 vize başvuru süreci nasıl işler?",
     answer:
-      "Suecin asamalari: 1) Danismanlik gorusmesi ve uygunluk degerlendirmesi, 2) Is eslestirme ve sirket mulakaati, 3) DS-2019 belgesinin hazirlanmasi, 4) SEVIS ucretinin odenmesi ($220), 5) DS-160 formunun doldurulmasi, 6) MRV ucretinin odenmesi ($185), 7) Konsolosluk mulakat randevusu, 8) Mulakat ve vize onay. Tum suecin tamamlanmasi ortalama 2-4 ay surer.",
+      "Sürecin aşamaları: 1) Danışmanlık görüşmesi ve uygunluk değerlendirmesi, 2) İş eşleştirme ve şirket mülakatı, 3) DS-2019 belgesinin hazırlanması, 4) SEVIS ücretinin ödenmesi ($220), 5) DS-160 formunun doldurulması, 6) MRV ücretinin ödenmesi ($185), 7) Konsolosluk mülakat randevusu, 8) Mülakat ve vize onayı. Tüm sürecin tamamlanması ortalama 2-4 ay sürer.",
   },
   {
     category: "Vize",
-    question: "Vize reddedilme ihtimali var mi?",
+    question: "Vize reddedilme ihtimali var mı?",
     answer:
-      "Iyi hazirlanan adaylar icin vize red orani oldukca dusuktur. Bizim katilimcilarimizda vize onay orani %98dir. Red nedenleri genellikle yetersiz finansal kanit, Turkiyeye donus niyetinin kanitlanamamasi veya eksik belgeler olabilir. Biz sizi mulakat oncesi kapsamli hazirlayarak riskleri en aza indiriyoruz.",
+      "İyi hazırlanan adaylar için vize red oranı oldukça düşüktür. Bizim katılımcılarımızda vize onay oranı %98'dir. Red nedenleri genellikle yetersiz finansal kanıt, Türkiye'ye dönüş niyetinin kanıtlanamaması veya eksik belgeler olabilir. Biz sizi mülakat öncesi kapsamlı hazırlayarak riskleri en aza indiriyoruz.",
   },
   {
     category: "Vize",
-    question: "Vize mulakati nasil gecer?",
+    question: "Vize mülakatı nasıl geçer?",
     answer:
-      "Mulakat Istanbul veya Ankara ABD Konsolosluklarinda yuz yuze yapilir. Genellikle 2-5 dakika surer. Konsolosluk gorevlisi size programiniz, kariyer planlariniz ve Turkiyeye donus niyetiniz hakkinda sorular sorar. Sorulara kisa, net ve tutarli cevaplar vermeniz onemlidir. Mulakat oncesi simulasyon calismasi yapmanizi siddetle tavsiye ederiz.",
+      "Mülakat İstanbul veya Ankara ABD Konsolosluklarında yüz yüze yapılır. Genellikle 2-5 dakika sürer. Konsolosluk görevlisi size programınız, kariyer planlarınız ve Türkiye'ye dönüş niyetiniz hakkında sorular sorar. Sorulara kısa, net ve tutarlı cevaplar vermeniz önemlidir. Mülakat öncesi simülasyon çalışması yapmanızı şiddetle tavsiye ederiz.",
   },
   {
     category: "Vize",
     question: "DS-2019 belgesi nedir?",
     answer:
-      "DS-2019 (Certificate of Eligibility), ABD Disisleri Bakanligi onayli sponsor kurulus tarafindan duzenlenen ve J1 vize basvurunuzun temel belgesidir. Programinizin turunu, suresini, finansal bilgileri ve sponsor kurulusun bilgilerini icerir. Bu belge olmadan J1 vize basvurusu yapilamaz. Is eslestirmeniz tamamlandiktan sonra sponsor kurulus tarafindan hazirlanir.",
+      "DS-2019 (Certificate of Eligibility), ABD Dışişleri Bakanlığı onaylı sponsor kuruluş tarafından düzenlenen ve J1 vize başvurunuzun temel belgesidir. Programınızın türünü, süresini, finansal bilgileri ve sponsor kuruluşun bilgilerini içerir. Bu belge olmadan J1 vize başvurusu yapılamaz. İş eşleştirmeniz tamamlandıktan sonra sponsor kuruluş tarafından hazırlanır.",
   },
   {
     category: "Vize",
-    question: "2 yillik eve donus kurali (Two-Year Home Residency) nedir?",
+    question: "2 yıllık eve dönüş kuralı (Two-Year Home Residency) nedir?",
     answer:
-      "Bazi J1 vize sahipleri, program sonrasinda en az 2 yil kendi ulkelerinde yasamak zorundadir. Bu kural, devlet sponsorlu programlar veya ABDde az bulunan meslekler icin gecerlidir. Ozel sektor stajlari icin genellikle bu kural uygulanmaz, ancak DS-2019 belgenizde bu durum belirtilir. Eger kural size uygulaniyorsa, waiver (muafiyet) basvurusu yapilabilir.",
+      "Bazı J1 vize sahipleri, program sonrasında en az 2 yıl kendi ülkelerinde yaşamak zorundadır. Bu kural, devlet sponsorlu programlar veya ABD'de az bulunan meslekler için geçerlidir. Özel sektör stajları için genellikle bu kural uygulanmaz, ancak DS-2019 belgenizde bu durum belirtilir. Eğer kural size uygulanıyorsa, waiver (muafiyet) başvurusu yapılabilir.",
   },
-  // Ucret
+  // Ücret
   {
-    category: "Ucret",
+    category: "Ücret",
     question: "Program toplam ne kadara mal olur?",
     answer:
-      "Toplam maliyet; danismanlik ucreti, sponsor kurulus ucreti, SEVIS ucreti ($220), vize basvuru ucreti ($185), ucak bileti ve ilk ay yasam masrafindan olusur. Detayli ucret tablosu icin ucretler sayfamizi ziyaret edin. Taksit imkani mevcuttur. Staja basladiginizda maas almaniz nedeniyle bu yatirim kendini hizla karsilar.",
+      "Toplam maliyet; danışmanlık ücreti, sponsor kuruluş ücreti, SEVIS ücreti ($220), vize başvuru ücreti ($185), uçak bileti ve ilk ay yaşam masrafından oluşur. Detaylı ücret tablosu için ücretler sayfamızı ziyaret edin. Taksit imkanı mevcuttur. Staja başladığınızda maaş almanız nedeniyle bu yatırım kendini hızla karşılar.",
   },
   {
-    category: "Ucret",
-    question: "Taksit imkani var mi?",
+    category: "Ücret",
+    question: "Taksit imkanı var mı?",
     answer:
-      "Evet, program ucretini taksitlendirebilirsiniz. Basvuru asamasinda kapora odenerek suec baslatilir, kalan tutar aylara yayilir. Kredi karti taksitlendirme veya havale ile taksit secenekleri mevcuttur. Detayli odeme plani icin danismanlarimizla gorusebilirsiniz.",
+      "Evet, program ücretini taksitlendirebilirsiniz. Başvuru aşamasında kapora ödenerek süreç başlatılır, kalan tutar aylara yayılır. Kredi kartı taksitlendirme veya havale ile taksit seçenekleri mevcuttur. Detaylı ödeme planı için danışmanlarımızla görüşebilirsiniz.",
   },
   {
-    category: "Ucret",
-    question: "Gizli maliyet var mi?",
+    category: "Ücret",
+    question: "Gizli maliyet var mı?",
     answer:
-      "Hayir. Tum ucretler basvuru oncesinde seffaf sekilde paylasilir. Danismanlik ucreti, sponsor kurulus ucreti, resmi ucretler (SEVIS, MRV) ve varsa ek hizmet ucretleri net olarak belirtilir. Sozlesme asamasinda tum maliyetler yaziili olarak taahhut edilir. Beklenmedik ek ucret cikmaz.",
+      "Hayır. Tüm ücretler başvuru öncesinde şeffaf şekilde paylaşılır. Danışmanlık ücreti, sponsor kuruluş ücreti, resmi ücretler (SEVIS, MRV) ve varsa ek hizmet ücretleri net olarak belirtilir. Sözleşme aşamasında tüm maliyetler yazılı olarak taahhüt edilir. Beklenmedik ek ücret çıkmaz.",
   },
   {
-    category: "Ucret",
-    question: "Vize reddedilirse ucretim iade edilir mi?",
+    category: "Ücret",
+    question: "Vize reddedilirse ücretim iade edilir mi?",
     answer:
-      "Vize reddedilmesi durumunda, danismanlik ucretimizin buyuk bolumu iade edilir. SEVIS ve MRV gibi resmi ucretler ABD hukumeti tarafindan iade edilmez. Iade politikamizin detaylari sozlesmenizde acikca belirtilir. %98 vize onay oranmiz ile risk minimumdur.",
+      "Vize reddedilmesi durumunda, danışmanlık ücretimizin büyük bölümü iade edilir. SEVIS ve MRV gibi resmi ücretler ABD hükümeti tarafından iade edilmez. İade politikamızın detayları sözleşmenizde açıkça belirtilir. %98 vize onay oranımız ile risk minimumdur.",
   },
-  // Yasam
+  // Yaşam
   {
-    category: "Yasam",
-    question: "ABDde nerede kalacagim?",
+    category: "Yaşam",
+    question: "ABD'de nerede kalacağım?",
     answer:
-      "Konaklama seceenekleri sehre ve is yerine gore degisir. Bazi sirketler konaklama destegi veya yardimi saglar. Genel olarak katilimcilar ev arkadaslariyla paylasimli daire kiralama, Airbnb veya stajyer konaklama programlarini tercih eder. Biz size konaklama secenekleri konusunda rehberlik yapyoruz ve onceki katilimcilarimizin deneyimlerini paylasyoruz.",
+      "Konaklama seçenekleri şehre ve iş yerine göre değişir. Bazı şirketler konaklama desteği veya yardımı sağlar. Genel olarak katılımcılar ev arkadaşlarıyla paylaşımlı daire kiralama, Airbnb veya stajyer konaklama programlarını tercih eder. Biz size konaklama seçenekleri konusunda rehberlik yapıyoruz ve önceki katılımcılarımızın deneyimlerini paylaşıyoruz.",
   },
   {
-    category: "Yasam",
-    question: "Saglik sigortam olacak mi?",
+    category: "Yaşam",
+    question: "Sağlık sigortam olacak mı?",
     answer:
-      "Evet, J1 vize programi kapsaminda saglik sigortasi zorunludur. Sponsor kurulus tarafindan minimum teminati karsilayan bir saglik sigortasi saglanir. Sigorta genellikle doktor ziyareti, acil servis, hastane yatisi ve reçeteli ilac masraflarini kapsar. Ekstra teminat icin ek sigorta yaptirabilirsiniz.",
+      "Evet, J1 vize programı kapsamında sağlık sigortası zorunludur. Sponsor kuruluş tarafından minimum teminatı karşılayan bir sağlık sigortası sağlanır. Sigorta genellikle doktor ziyareti, acil servis, hastane yatışı ve reçeteli ilaç masraflarını kapsar. Ekstra teminat için ek sigorta yaptırabilirsiniz.",
   },
   {
-    category: "Yasam",
-    question: "ABDde banka hesabi acabilir miyim?",
+    category: "Yaşam",
+    question: "ABD'de banka hesabı açabilir miyim?",
     answer:
-      "Evet, J1 vize sahipleri ABDde banka hesabi acabilir. Bunun icin pasaportunuz, DS-2019 belgeniz ve Social Security Number (SSN) gereklidir. SSN almak icin isverenizle birlikte Social Security Administration ofisine basvurursunuz. Chase, Bank of America, Wells Fargo gibi buyuk bankalar J1 vize sahiplerine hesap acar.",
+      "Evet, J1 vize sahipleri ABD'de banka hesabı açabilir. Bunun için pasaportunuz, DS-2019 belgeniz ve Social Security Number (SSN) gereklidir. SSN almak için işverenizle birlikte Social Security Administration ofisine başvurursunuz. Chase, Bank of America, Wells Fargo gibi büyük bankalar J1 vize sahiplerine hesap açar.",
   },
   {
-    category: "Yasam",
+    category: "Yaşam",
     question: "Ehliyet alabilir miyim?",
     answer:
-      "Evet, cogu eyalette J1 vize sahipleri yerel ehliyet alabilir. Gereksinimler eyaletten eyalete degisir. Genellikle pasaport, DS-2019, SSN ve ikametgah belgesi istenir. Turkiye ehliyetinizi de bazi eyaletlerde kullanabilirsiniz, ancak uzun sureli kalislarda yerel ehliyet almaniz tavsiye edilir.",
+      "Evet, çoğu eyalette J1 vize sahipleri yerel ehliyet alabilir. Gereksinimler eyaletten eyalete değişir. Genellikle pasaport, DS-2019, SSN ve ikametgah belgesi istenir. Türkiye ehliyetinizi de bazı eyaletlerde kullanabilirsiniz, ancak uzun süreli kalışlarda yerel ehliyet almanız tavsiye edilir.",
   },
   {
-    category: "Yasam",
-    question: "Staj bitiminde ABDde kalabilir miyim?",
+    category: "Yaşam",
+    question: "Staj bitiminde ABD'de kalabilir miyim?",
     answer:
-      "J1 programi bitiminde 30 gunluk grace period (ek sure) verilir. Bu sure icinde ABDde seyahat edebilirsiniz ancak calisamazsiniz. Bu 30 gunun sonunda ulkenize donmeniz gerekmektedir. ABDde kalmak istiyorsaniz, program bitmeden farkli bir vize turune gecis icin basvuru yapmaniz gerekir ki bu oldukca karmasik bir surecdir.",
+      "J1 programı bitiminde 30 günlük grace period (ek süre) verilir. Bu süre içinde ABD'de seyahat edebilirsiniz ancak çalışamazsınız. Bu 30 günün sonunda ülkenize dönmeniz gerekmektedir. ABD'de kalmak istiyorsanız, program bitmeden farklı bir vize türüne geçiş için başvuru yapmanız gerekir ki bu oldukça karmaşık bir süreçtir.",
   },
 ];
 
-const categories = ["Tumu", "Program", "Vize", "Ucret", "Yasam"];
+const categories = ["Tümü", "Program", "Vize", "Ücret", "Yaşam"];
 
 export default function SSS() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
-  const [activeCategory, setActiveCategory] = useState("Tumu");
+  const [activeCategory, setActiveCategory] = useState("Tümü");
 
   const filteredFAQs =
-    activeCategory === "Tumu"
+    activeCategory === "Tümü"
       ? faqItems
       : faqItems.filter((item) => item.category === activeCategory);
 
@@ -150,14 +150,14 @@ export default function SSS() {
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-4">
-              Yardim Merkezi
+              Yardım Merkezi
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Sikca Sorulan Sorular
+              Sıkça Sorulan Sorular
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              ABD staj programi, J1 vize sureci, ucretler ve ABDde yasam
-              hakkinda en cok merak edilen sorularin cevaplarini burada
+              ABD staj programı, J1 vize süreci, ücretler ve ABD&apos;de yaşam
+              hakkında en çok merak edilen soruların cevaplarını burada
               bulabilirsiniz.
             </p>
           </ScrollReveal>
@@ -244,7 +244,7 @@ export default function SSS() {
 
             {filteredFAQs.length === 0 && (
               <div className="text-center py-16">
-                <p className="text-slate">Bu kategoride soru bulunmamaktadir.</p>
+                <p className="text-slate">Bu kategoride soru bulunmamaktadır.</p>
               </div>
             )}
           </div>
@@ -257,18 +257,18 @@ export default function SSS() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-4">
-                Sorunuzun Cevabini Bulamdiniz mi?
+                Sorunuzun Cevabını Bulamadınız mı?
               </h2>
               <p className="text-slate leading-relaxed mb-8 max-w-xl mx-auto">
-                Uzman danismanlarimiz tum sorularinizi yanintlamak icin hazir.
-                Bize dilediginiz kanaldan ulasabilirsiniz.
+                Uzman danışmanlarımız tüm sorularınızı yanıtlamak için hazır.
+                Bize dilediğiniz kanaldan ulaşabilirsiniz.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/iletisim"
                   className="inline-flex items-center gap-2 bg-navy text-white px-8 py-4 rounded-xl font-semibold hover:bg-navy/90 transition-colors"
                 >
-                  Bize Ulasin
+                  Bize Ulaşın
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
                 </Link>
                 <Link
@@ -276,7 +276,7 @@ export default function SSS() {
                   target="_blank"
                   className="inline-flex items-center gap-2 text-navy px-8 py-4 rounded-xl font-semibold border border-navy/15 hover:border-navy/30 hover:shadow-lg transition-all"
                 >
-                  WhatsApp ile Yazin
+                  WhatsApp ile Yazın
                 </Link>
               </div>
             </div>
@@ -290,17 +290,17 @@ export default function SSS() {
           <ScrollReveal>
             <div className="bg-navy rounded-2xl p-10 lg:p-16 text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-white mb-4">
-                ABD Staj Maceraniza Baslayin
+                ABD Staj Maceranıza Başlayın
               </h2>
               <p className="text-white/70 max-w-xl mx-auto mb-8">
-                Ucretsiz danismanlik gorusmemizde tum sorularinizi
-                yanitlayalim ve size ozel programinizi olusturalim.
+                Ücretsiz danışmanlık görüşmemizde tüm sorularınızı
+                yanıtlayalım ve size özel programınızı oluşturalım.
               </p>
               <Link
                 href="/basvuru"
                 className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
               >
-                Ucretsiz Danismanlik Al
+                Ücretsiz Danışmanlık Al
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </Link>
             </div>
@@ -312,12 +312,12 @@ export default function SSS() {
       <section className="py-20 lg:py-28 bg-sand/30">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-navy mb-8">Ilgili Sayfalar</h2>
+            <h2 className="text-2xl font-bold text-navy mb-8">İlgili Sayfalar</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { href: "/staj-programi", title: "Staj Programi", desc: "Program detaylari, avantajlar ve sektorler" },
-                { href: "/ucretler", title: "Ucretler", desc: "Program ucretleri ve odeme secenekleri" },
-                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize sureci ve basvuru adimlari" },
+                { href: "/staj-programi", title: "Staj Programı", desc: "Program detayları, avantajlar ve sektörler" },
+                { href: "/ucretler", title: "Ücretler", desc: "Program ücretleri ve ödeme seçenekleri" },
+                { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vize süreci ve başvuru adımları" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="group block p-6 bg-white rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg transition-all duration-300">
                   <h3 className="font-bold text-navy mb-1 group-hover:text-crimson transition-colors">

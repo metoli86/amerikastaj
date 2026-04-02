@@ -7,141 +7,141 @@ const interviewQuestions = [
   {
     question: "Why do you want to go to the United States?",
     answer:
-      "Bu soruya ABDde mesleki deneyim kazanmak, kulturel degisim yasamak ve kariyerinizi gelistirmek istediginizi vurgulayarak cevap verin. Belirli bir sektorde uzmanlasmak istediginizi ve ABDnin bu alanda dunya lideri oldugunu belirtin.",
-    tip: "Genel cevaplardan kacinin. Kendi mesleginize ozgu nedenler sunun.",
+      "Bu soruya ABD'de mesleki deneyim kazanmak, kültürel değişim yaşamak ve kariyerinizi geliştirmek istediğinizi vurgulayarak cevap verin. Belirli bir sektörde uzmanlaşmak istediğinizi ve ABD'nin bu alanda dünya lideri olduğunu belirtin.",
+    tip: "Genel cevaplardan kaçının. Kendi mesleğinize özgü nedenler sunun.",
   },
   {
     question: "What will you do in the United States?",
     answer:
-      "Staj programinizin detaylarini aciklayiniz. Hangi sirkette, hangi departmanda, ne tur gorevler yapacaginizi net olarak anlatiniz. DS-7002 Training Plan belgenizle uyumlu cevaplar verin.",
-    tip: "Is taniminizi ezbere bilin ve kendi cumlelelerinizle ifade edin.",
+      "Staj programınızın detaylarını açıklayınız. Hangi şirkette, hangi departmanda, ne tür görevler yapacağınızı net olarak anlatınız. DS-7002 Training Plan belgenizle uyumlu cevaplar verin.",
+    tip: "İş tanımınızı ezbere bilin ve kendi cümlelerinizle ifade edin.",
   },
   {
     question: "Who is your sponsor organization?",
     answer:
-      "Sponsor kurulusunuzun adini, ne is yaptigini ve sizi nasil destekleyecegini aciklayiniz. Sponsor kurulusun ABD Disisleri Bakanligi onayli oldugunu belirtin.",
-    tip: "Sponsor kurulus hakkinda temel bilgileri arin.",
+      "Sponsor kuruluşunuzun adını, ne iş yaptığını ve sizi nasıl destekleyeceğini açıklayınız. Sponsor kuruluşun ABD Dışişleri Bakanlığı onaylı olduğunu belirtin.",
+    tip: "Sponsor kuruluş hakkında temel bilgileri araştırın.",
   },
   {
     question: "Where will you work and what is the company about?",
     answer:
-      "Calisacaginiz sirketin adini, sektorunu, buyuklugunu ve ne yaptigini anlatiniz. Sirketin web sitesini incelediginizi ve hakkinda bilgi sahibi oldugunuzu gosterin.",
-    tip: "Sirketin web sitesini ziyaret edin ve temel bilgileri not alin.",
+      "Çalışacağınız şirketin adını, sektörünü, büyüklüğünü ve ne yaptığını anlatınız. Şirketin web sitesini incelediğinizi ve hakkında bilgi sahibi olduğunuzu gösterin.",
+    tip: "Şirketin web sitesini ziyaret edin ve temel bilgileri not alın.",
   },
   {
     question: "How did you find this internship?",
     answer:
-      "Staj programina nasil basvurdugunuzu ve sureci anlatiniz. Danismanlik firmaniz varsa ondan bahsedin. Programi arastirirken hangi kaynaklari kullandiginizi belirtin.",
-    tip: "Surecin dogal ve mantikli bir hikayesini olusuturun.",
+      "Staj programına nasıl başvurduğunuzu ve süreci anlatınız. Danışmanlık firmanız varsa ondan bahsedin. Programı araştırırken hangi kaynakları kullandığınızı belirtin.",
+    tip: "Sürecin doğal ve mantıklı bir hikayesini oluşturun.",
   },
   {
     question: "What is your educational background?",
     answer:
-      "Universite adinizi, bolumunuzu, kacinci sinif veya mezun oldugunuzu belirtiniz. Staj alani ile egitim alaninizdaki baglaniyi vurgulayiniz.",
-    tip: "Egitim ve staj alani arasindaki iliskiyi net kurun.",
+      "Üniversite adınızı, bölümünüzü, kaçıncı sınıf veya mezun olduğunuzu belirtiniz. Staj alanı ile eğitim alanınızdaki bağlantıyı vurgulayınız.",
+    tip: "Eğitim ve staj alanı arasındaki ilişkiyi net kurun.",
   },
   {
     question: "How will you fund your stay in the US?",
     answer:
-      "Staj programindan alacaginiz maasi, banka hesabinizdaki birikimi ve ailenizden destek alip almadiginizi aciklayiniz. Finansal olarak yeterli oldugunuzu gosterin.",
-    tip: "Banka dokumleriniz guncellenmis ve yeterli bakiyeyi gostermelidir.",
+      "Staj programından alacağınız maaşı, banka hesabınızdaki birikimi ve ailenizden destek alıp almadığınızı açıklayınız. Finansal olarak yeterli olduğunuzu gösterin.",
+    tip: "Banka dökümleriniz güncellenmiş ve yeterli bakiyeyi göstermelidir.",
   },
   {
     question: "Will you return to Turkey after the program?",
     answer:
-      "ABDdeki programiniz bittikten sonra Turkiyeye donecginizi net olarak belirtiniz. Turkiyede sizi bekleyen is firsatlari, aile baglari veya kariyer planlari gibi somut donis nedenleri sunun.",
-    tip: "Bu en kritik soru. Turkiyeye donis niyetinizi kanitlayacak somut baglantinizi aciklayin.",
+      "ABD'deki programınız bittikten sonra Türkiye'ye döneceğinizi net olarak belirtiniz. Türkiye'de sizi bekleyen iş fırsatları, aile bağları veya kariyer planları gibi somut dönüş nedenleri sunun.",
+    tip: "Bu en kritik soru. Türkiye'ye dönüş niyetinizi kanıtlayacak somut bağlantınızı açıklayın.",
   },
   {
     question: "What are your career plans after the program?",
     answer:
-      "ABDde edindiginiz tecrube ile Turkiyede kariyerinizi nasil ilerletmeyi planladiginizi anlatiniz. Uzun vadeli kariyer hedefinizi ve bu staijin bu hedefe nasil katkida bulunacagini aciklayiniz.",
-    tip: "Kariyer planinizi Turkiye merkezli anlatin.",
+      "ABD'de edindiğiniz tecrübe ile Türkiye'de kariyerinizi nasıl ilerletmeyi planladığınızı anlatınız. Uzun vadeli kariyer hedefinizi ve bu stajın bu hedefe nasıl katkıda bulunacağını açıklayınız.",
+    tip: "Kariyer planınızı Türkiye merkezli anlatın.",
   },
   {
     question: "Do you have any relatives in the US?",
     answer:
-      "Durust olun. ABDde akrabaniz varsa belirtin ama programiniz bittikten sonra donecginizi tekrar vurgulayiniz. Akrabaniz yoksa bunu net olarak belirtin.",
-    tip: "Asla yalan soylemeyin. Konsolosluk kayitlari kontrol edebilir.",
+      "Dürüst olun. ABD'de akrabanız varsa belirtin ama programınız bittikten sonra döneceğinizi tekrar vurgulayınız. Akrabanız yoksa bunu net olarak belirtin.",
+    tip: "Asla yalan söylemeyin. Konsolosluk kayıtları kontrol edebilir.",
   },
   {
     question: "Have you been to the US before?",
     answer:
-      "Daha once ABDye gittiyseniz, ne zaman, ne amacla gittiginizi ve zamaninda dondugunuzu belirtin. Ilk kez gidiyorsaniz bunu soyleyin ve heyecaninizi ifade edin.",
-    tip: "Onceki seyahatlerinizde vize kurallarini ihlal etmediginizi gosterin.",
+      "Daha önce ABD'ye gittiyseniz, ne zaman, ne amaçla gittiğinizi ve zamanında döndüğünüzü belirtin. İlk kez gidiyorsanız bunu söyleyin ve heyecanınızı ifade edin.",
+    tip: "Önceki seyahatlerinizde vize kurallarını ihlal etmediğinizi gösterin.",
   },
   {
     question: "How much will you be paid?",
     answer:
-      "DS-7002 formunuzda belirtilen maas miktarini soyleyiniz. Aylik veya saatlik ucreti bilin. Bu gelirin yasam masraflarinizi karsilamaya yeterli oldugunu belirtin.",
-    tip: "Maas bilginiz DS-7002 ile birebir uyumlu olmalidir.",
+      "DS-7002 formunuzda belirtilen maaş miktarını söyleyiniz. Aylık veya saatlik ücreti bilin. Bu gelirin yaşam masraflarınızı karşılamaya yeterli olduğunu belirtin.",
+    tip: "Maaş bilginiz DS-7002 ile birebir uyumlu olmalıdır.",
   },
   {
     question: "Where will you live in the US?",
     answer:
-      "Kalacaginiz sehri ve konaklama planinizi anlatiniz. Sirketiniz konaklama sagliyorsa belirtin, degilse nasil bir yer arayacaginizi aciklayiniz.",
-    tip: "En azindan sehir ve genel bir konaklama plani hazirlayin.",
+      "Kalacağınız şehri ve konaklama planınızı anlatınız. Şirketiniz konaklama sağlıyorsa belirtin, değilse nasıl bir yer arayacağınızı açıklayınız.",
+    tip: "En azından şehir ve genel bir konaklama planı hazırlayın.",
   },
   {
     question: "What do you know about J1 visa regulations?",
     answer:
-      "J1 vizesinin kulturel degisim amaciyla verilen gecici bir vize oldugunu, belirli bir sure icin gecerli oldugunu ve program bitiminde ulkenize donmeniz gerektigini belirtiniz.",
-    tip: "2 yillik eve donus kurali (two-year home residency requirement) hakkinda bilgi sahibi olun.",
+      "J1 vizesinin kültürel değişim amacıyla verilen geçici bir vize olduğunu, belirli bir süre için geçerli olduğunu ve program bitiminde ülkenize dönmeniz gerektiğini belirtiniz.",
+    tip: "2 yıllık eve dönüş kuralı (two-year home residency requirement) hakkında bilgi sahibi olun.",
   },
   {
     question: "What skills do you hope to gain from this program?",
     answer:
-      "Programdan kazanmayi hedeflediginiz somut becerileri siralayin. Teknik beceriler, liderlik deneyimi, uluslararasi is kulturu bilgisi gibi konulara deginiz. Bunlarin Turkiyeye dondugdugunde kariyerinize nasil katki saglayacagini aciklayiniz.",
-    tip: "Genel ifadeler yerine mesleginize ozgu beceriler soyleyiniz.",
+      "Programdan kazanmayı hedeflediğiniz somut becerileri sıralayın. Teknik beceriler, liderlik deneyimi, uluslararası iş kültürü bilgisi gibi konulara değinin. Bunların Türkiye'ye döndüğünüzde kariyerinize nasıl katkı sağlayacağını açıklayınız.",
+    tip: "Genel ifadeler yerine mesleğinize özgü beceriler söyleyiniz.",
   },
   {
     question: "Do you have health insurance for your stay?",
     answer:
-      "J1 vize programi kapsaminda saglik sigortanizin sponsor kurulus tarafindan saglandigini veya kendinizin temin edecegnizi belirtiniz. Minimum teminat gereksinimlerini bildiginizi gosterin.",
-    tip: "J1 vize icin saglik sigortasi zorunludur. Detaylarini bilin.",
+      "J1 vize programı kapsamında sağlık sigortanızın sponsor kuruluş tarafından sağlandığını veya kendinizin temin edeceğinizi belirtiniz. Minimum teminat gereksinimlerini bildiğinizi gösterin.",
+    tip: "J1 vize için sağlık sigortası zorunludur. Detaylarını bilin.",
   },
 ];
 
 const preparationTips = [
   {
-    title: "Belgeleri Hazirlayin",
+    title: "Belgeleri Hazırlayın",
     description:
-      "Tum belgeleri bir dosya halinde duzenli sekilde hazirlayin. Pasaport, DS-2019, DS-160 onay sayfasi, SEVIS makbuzu, banka dokumleri, ogrenci belgesi ve transkript mutlaka yaninda olmalidir.",
+      "Tüm belgeleri bir dosya halinde düzenli şekilde hazırlayın. Pasaport, DS-2019, DS-160 onay sayfası, SEVIS makbuzu, banka dökümleri, öğrenci belgesi ve transkript mutlaka yanınızda olmalıdır.",
   },
   {
-    title: "Ingilizce Pratik Yapin",
+    title: "İngilizce Pratik Yapın",
     description:
-      "Mulakat tamamen Ingilizce yapilir. Gunluk konusma pratiginizi artirin, ozellikle kendinizi tanitma ve kariyer planlarinizi anlatma konusunda hazirlikli olun. Dogal ve akici konusmaniz onemlidir.",
+      "Mülakat tamamen İngilizce yapılır. Günlük konuşma pratiğinizi artırın, özellikle kendinizi tanıtma ve kariyer planlarınızı anlatma konusunda hazırlıklı olun. Doğal ve akıcı konuşmanız önemlidir.",
   },
   {
     title: "DS-7002 Formunu Ezbere Bilin",
     description:
-      "Training/Internship Placement Plan (DS-7002) formu stajinizin detaylarini icerir. Is taniminizi, gorevlerinizi ve egitim hedefinizi kendi sozcuklerinizle anlatabilecek sekilde hazirlanin.",
+      "Training/Internship Placement Plan (DS-7002) formu stajınızın detaylarını içerir. İş tanımınızı, görevlerinizi ve eğitim hedefinizi kendi sözcüklerinizle anlatabilecek şekilde hazırlanın.",
   },
   {
-    title: "Turkiyeye Donus Baglantisi",
+    title: "Türkiye'ye Dönüş Bağlantısı",
     description:
-      "Konsolosluk en cok donus niyetinizi sorgular. Turkiyedeki aile baglari, is firsatlari, devam eden egitim veya mulk gibi somut donis nedenlerinizi hazirlayin.",
+      "Konsolosluk en çok dönüş niyetinizi sorgular. Türkiye'deki aile bağları, iş fırsatları, devam eden eğitim veya mülk gibi somut dönüş nedenlerinizi hazırlayın.",
   },
   {
-    title: "Kisa ve Net Cevaplar Verin",
+    title: "Kısa ve Net Cevaplar Verin",
     description:
-      "Konsolosluk mulakatlari genellikle 2-5 dakika surer. Sorulara kisa, net ve ozguvenli cevaplar verin. Gereksiz ayrintilara girmeyin. Sorulan sorunun disina cikmayin.",
+      "Konsolosluk mülakatları genellikle 2-5 dakika sürer. Sorulara kısa, net ve özgüvenli cevaplar verin. Gereksiz ayrıntılara girmeyin. Sorulan sorunun dışına çıkmayın.",
   },
   {
-    title: "Giyim ve Gorunum",
+    title: "Giyim ve Görünüm",
     description:
-      "Is gorusmesine gider gibi resmi veya yari resmi kiyafet tercih edin. Temiz ve duzenli bir gorunum profesyonel izlenim birakir.",
+      "İş görüşmesine gider gibi resmi veya yarı resmi kıyafet tercih edin. Temiz ve düzenli bir görünüm profesyonel izlenim bırakır.",
   },
   {
     title: "Erken Gidin",
     description:
-      "Randevunuzdan en az 30 dakika once konsoloslugun onunde olun. Gecikme halinde randevunuz iptal edilebilir. Telefon, elektronik cihaz ve buyuk cantalar konsolosluga alinamaz.",
+      "Randevunuzdan en az 30 dakika önce konsolosluğun önünde olun. Gecikme halinde randevunuz iptal edilebilir. Telefon, elektronik cihaz ve büyük çantalar konsolosluğa alınamaz.",
   },
   {
     title: "Rahat Olun",
     description:
-      "Gercekleri soylediginiz ve iyi hazirlandiginiz surece endiselenecek bir sey yok. Konsolosluk gorevlileri samimi ve tutarli cevaplar arar. Gercekdisi hikayeler uydurmak en buyuk hatadir.",
+      "Gerçekleri söylediğiniz ve iyi hazırlandığınız sürece endişelenecek bir şey yok. Konsolosluk görevlileri samimi ve tutarlı cevaplar arar. Gerçekdışı hikayeler uydurmak en büyük hatadır.",
   },
 ];
 
@@ -154,15 +154,15 @@ export default function J1VizeMulakatSorulari() {
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-4">
-              Mulakat Rehberi
+              Mülakat Rehberi
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              J1 Vize Mulakat Sorulari
+              J1 Vize Mülakat Soruları
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              ABD konsolosluklarinda J1 vize mulakatinda en sik sorulan sorular,
-              ornek cevaplar ve basarili bir mulakat icin ipuclari. Iyi
-              hazirlanan adaylar icin vize onay orani oldukca yuksektir.
+              ABD konsolosluklarında J1 vize mülakatında en sık sorulan sorular,
+              örnek cevaplar ve başarılı bir mülakat için ipuçları. İyi
+              hazırlanan adaylar için vize onay oranı oldukça yüksektir.
             </p>
           </ScrollReveal>
         </div>
@@ -174,25 +174,25 @@ export default function J1VizeMulakatSorulari() {
           <div className="max-w-3xl">
             <ScrollReveal>
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                J1 Vize Mulakati Nasil Gecer?
+                J1 Vize Mülakatı Nasıl Geçer?
               </h2>
               <div className="space-y-4 text-slate leading-relaxed">
                 <p>
-                  J1 vize mulakati, ABD konsolosluklarinda (Istanbul veya Ankara)
-                  yuz yuze gerceklestirilir. Mulakat genellikle 2 ila 5 dakika
-                  arasinda surer. Konsolosluk gorevlisi size programiniz, kariyer
-                  planlariniz ve Turkiyeye donus niyetiniz hakkinda sorular sorar.
+                  J1 vize mülakatı, ABD konsolosluklarında (İstanbul veya Ankara)
+                  yüz yüze gerçekleştirilir. Mülakat genellikle 2 ila 5 dakika
+                  arasında sürer. Konsolosluk görevlisi size programınız, kariyer
+                  planlarınız ve Türkiye&apos;ye dönüş niyetiniz hakkında sorular sorar.
                 </p>
                 <p>
-                  Mulakattin amaci, basvurunuzun samimi olup olmadigini, programin
-                  amacina uygun olup olmadiginizi ve ABDdeki sureniz sona erdiginde
-                  Turkiyeye donup donmeyeceginizi degerlendirmektir. Hazirlkili
-                  olmak, dogru belgeleri getirmek ve sorulara net cevaplar vermek
-                  basarinin anahtaridir.
+                  Mülakatın amacı, başvurunuzun samimi olup olmadığını, programın
+                  amacına uygun olup olmadığınızı ve ABD&apos;deki süreniz sona erdiğinde
+                  Türkiye&apos;ye dönüp dönmeyeceğinizi değerlendirmektir. Hazırlıklı
+                  olmak, doğru belgeleri getirmek ve sorulara net cevaplar vermek
+                  başarının anahtarıdır.
                 </p>
                 <p>
-                  Asagida, konsolosluklarda en sik sorulan J1 vize mulakat sorularini
-                  ve bu sorulara nasil cevap vermeniz gerektigini detayli olarak
+                  Aşağıda, konsolosluklarda en sık sorulan J1 vize mülakat sorularını
+                  ve bu sorulara nasıl cevap vermeniz gerektiğini detaylı olarak
                   bulabilirsiniz.
                 </p>
               </div>
@@ -210,7 +210,7 @@ export default function J1VizeMulakatSorulari() {
                 Soru & Cevap
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                En Sik Sorulan 16 Mulakat Sorusu
+                En Sık Sorulan 16 Mülakat Sorusu
               </h2>
             </div>
           </ScrollReveal>
@@ -241,7 +241,7 @@ export default function J1VizeMulakatSorulari() {
                           </svg>
                         </span>
                         <p className="text-xs text-navy font-medium">
-                          Ipucu: {item.tip}
+                          İpucu: {item.tip}
                         </p>
                       </div>
                     </div>
@@ -259,10 +259,10 @@ export default function J1VizeMulakatSorulari() {
           <ScrollReveal>
             <div className="mb-16">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
-                Hazirlik Ipuclari
+                Hazırlık İpuçları
               </p>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-                Mulakata Nasil Hazirlanmali?
+                Mülakata Nasıl Hazırlanmalı?
               </h2>
             </div>
           </ScrollReveal>
@@ -295,19 +295,19 @@ export default function J1VizeMulakatSorulari() {
           <ScrollReveal>
             <div className="max-w-3xl">
               <h2 className="text-2xl lg:text-4xl font-bold text-navy tracking-tight mb-6">
-                Mulakattta Yapilmamasi Gerekenler
+                Mülakatta Yapılmaması Gerekenler
               </h2>
               <div className="bg-crimson/5 rounded-2xl border border-crimson/10 p-7">
                 <ul className="space-y-4">
                   {[
-                    "ABDde kalma niyetiniz oldugunu ima eden ifadeler kullanmayin",
-                    "Ezberlenmis cevaplari robotik sekilde tekrarlamayin",
-                    "Konsolosluk gorevlisine gereksiz belgeler sunmayin - sadece isteneni gosterin",
-                    "Asiri heyecanli veya gergin goruntuden kacinin, dogal olun",
-                    "Maas veya para konusunu on plana cikartmayin",
-                    "Yalan soylemeyin - tutarsizlik tespit edilirse vize reddedilir",
-                    "Baska birinin hazirladigi cevaplari ezberlemeyin, kendi hikayenizi anlatin",
-                    "Sorulmadan uzun aciklamalar yapmayin, kisa ve ozu yanit verin",
+                    "ABD'de kalma niyetiniz olduğunu ima eden ifadeler kullanmayın",
+                    "Ezberlenmiş cevapları robotik şekilde tekrarlamayın",
+                    "Konsolosluk görevlisine gereksiz belgeler sunmayın - sadece isteneni gösterin",
+                    "Aşırı heyecanlı veya gergin görüntüden kaçının, doğal olun",
+                    "Maaş veya para konusunu ön plana çıkartmayın",
+                    "Yalan söylemeyin - tutarsızlık tespit edilirse vize reddedilir",
+                    "Başka birinin hazırladığı cevapları ezberlemeyin, kendi hikayenizi anlatın",
+                    "Sorulmadan uzun açıklamalar yapmayın, kısa ve özü yanıt verin",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <span className="w-5 h-5 rounded-full bg-crimson/10 flex items-center justify-center shrink-0 mt-0.5">
@@ -329,17 +329,17 @@ export default function J1VizeMulakatSorulari() {
           <ScrollReveal>
             <div className="bg-navy rounded-2xl p-10 lg:p-16 text-center">
               <h2 className="text-2xl lg:text-4xl font-bold text-white mb-4">
-                Mulakat Hazirligi icin Destek mi Lazim?
+                Mülakat Hazırlığı İçin Destek mi Lazım?
               </h2>
               <p className="text-white/70 max-w-xl mx-auto mb-8">
-                Uzman danismanlarimiz sizi birebir mulakat simulasyonu ile
-                hazirlayarak vize onay sansinizi en ust duzey cikarir.
+                Uzman danışmanlarımız sizi birebir mülakat simülasyonu ile
+                hazırlayarak vize onay şansınızı en üst düzeye çıkarır.
               </p>
               <Link
                 href="/basvuru"
                 className="inline-flex items-center gap-2 bg-crimson text-white px-8 py-4 rounded-xl font-semibold hover:bg-crimson/90 transition-colors"
               >
-                Ucretsiz Danismanlik Al
+                Ücretsiz Danışmanlık Al
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </Link>
             </div>
@@ -351,12 +351,12 @@ export default function J1VizeMulakatSorulari() {
       <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
-            <h2 className="text-2xl font-bold text-navy mb-8">Ilgili Rehberler</h2>
+            <h2 className="text-2xl font-bold text-navy mb-8">İlgili Rehberler</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { href: "/j1-vize", title: "J1 Vize Nedir?", desc: "J1 vize sureci, kosullar ve basvuru adimlari" },
-                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adim adim doldurma kilavuzu" },
-                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Basvurusu", desc: "Genel ABD vize sureci ve randevu alma rehberi" },
+                { href: "/j1-vize", title: "J1 Vize Nedir?", desc: "J1 vize süreci, koşullar ve başvuru adımları" },
+                { href: "/ds-160", title: "DS-160 Formu Rehberi", desc: "DS-160 formunu adım adım doldurma kılavuzu" },
+                { href: "/amerika-vize-basvurusu", title: "Amerika Vize Başvurusu", desc: "Genel ABD vize süreci ve randevu alma rehberi" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="group block p-6 bg-white rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg transition-all duration-300">
                   <h3 className="font-bold text-navy mb-1 group-hover:text-crimson transition-colors">

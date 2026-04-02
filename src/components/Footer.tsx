@@ -4,27 +4,27 @@ const footerSections = [
   {
     title: "Programlar",
     links: [
-      { href: "/staj-programi", label: "Staj Programi" },
-      { href: "/ucretler", label: "Ucretler" },
-      { href: "/basvuru", label: "Basvuru" },
+      { href: "/staj-programi", label: "Staj Programı" },
+      { href: "/ucretler", label: "Ücretler" },
+      { href: "/basvuru", label: "Başvuru" },
     ],
   },
   {
     title: "Rehber",
     links: [
       { href: "/j1-vize", label: "J1 Vize" },
-      { href: "/j1-vize-mulakat-sorulari", label: "Mulakat Sorulari" },
-      { href: "/amerika-vize-basvurusu", label: "Vize Basvurusu" },
+      { href: "/j1-vize-mulakat-sorulari", label: "Mülakat Soruları" },
+      { href: "/amerika-vize-basvurusu", label: "Vize Başvurusu" },
       { href: "/ds-160", label: "DS-160 Formu" },
     ],
   },
   {
     title: "Bilgi",
     links: [
-      { href: "/amerikada-calismak", label: "Amerikada Calismak" },
-      { href: "/sss", label: "Sikca Sorulan Sorular" },
-      { href: "/hakkimizda", label: "Hakkimizda" },
-      { href: "/iletisim", label: "Iletisim" },
+      { href: "/amerikada-calismak", label: "Amerika'da Çalışmak" },
+      { href: "/sss", label: "Sıkça Sorulan Sorular" },
+      { href: "/hakkimizda", label: "Hakkımızda" },
+      { href: "/iletisim", label: "İletişim" },
     ],
   },
 ];
@@ -38,17 +38,17 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8">
             <div>
               <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-light mb-3">
-                Kariyerine yeni bir sayfa ac
+                Kariyerine yeni bir sayfa aç
               </p>
               <h2 className="text-3xl lg:text-5xl font-bold leading-tight max-w-lg">
-                Amerikada staj deneyimi seni bekliyor.
+                Amerika&apos;da staj deneyimi seni bekliyor.
               </h2>
             </div>
             <Link
               href="/basvuru"
               className="group flex items-center gap-3 px-8 py-4 bg-white text-navy font-bold text-sm tracking-wide rounded-full hover:bg-sand transition-all duration-300 hover:shadow-xl hover:shadow-white/10 shrink-0"
             >
-              Ucretsiz Danismanlik
+              Ücretsiz Danışmanlık
               <svg
                 width="16"
                 height="16"
@@ -82,7 +82,7 @@ export default function Footer() {
               <span className="font-bold text-[15px] tracking-tight">amerikastaj</span>
             </div>
             <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">
-              Turkiyenin en guvenilir Amerika staj danismanligi.
+              Türkiye&apos;nin en güvenilir Amerika staj danışmanlığı.
             </p>
           </div>
 
@@ -113,14 +113,14 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} amerikastaj.com — Tum haklari saklidir.
+            &copy; {new Date().getFullYear()} amerikastaj.com — Tüm hakları saklıdır.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/iletisim" className="text-xs text-white/30 hover:text-white/60 transition-colors">
-              Iletisim
+              İletişim
             </Link>
             <Link href="/hakkimizda" className="text-xs text-white/30 hover:text-white/60 transition-colors">
-              Hakkimizda
+              Hakkımızda
             </Link>
           </div>
         </div>

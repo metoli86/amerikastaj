@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hakkimizda",
+  title: "Hakkımızda",
   description:
-    "amerikastaj.com - Turkiyenin en guvenilir Amerika staj danismanligi. 12 yillik deneyim, 500den fazla basarili stajyer.",
+    "amerikastaj.com - Türkiye'nin en güvenilir Amerika staj danışmanlığı. 12 yıllık deneyim, 500'den fazla başarılı stajyer.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

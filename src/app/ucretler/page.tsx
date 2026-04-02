@@ -6,49 +6,49 @@ import ScrollReveal from "@/components/ScrollReveal";
 const packages = [
   {
     name: "Internship",
-    tag: "Ogrenciler icin",
+    tag: "Öğrenciler için",
     price: "4.500",
     currency: "$",
     features: [
-      "Sponsor kurulus eslestirme",
+      "Sponsor kuruluş eşleştirme",
       "DS-2019 belgesi temini",
-      "SEVIS kaydi ve odeme rehberligi",
-      "Vize mulakat hazirligi",
-      "Is eslestirme destegi",
-      "Ucus oncesi oryantasyon",
-      "Amerikada 7/24 acil destek hatti",
+      "SEVIS kaydı ve ödeme rehberliği",
+      "Vize mülakat hazırlığı",
+      "İş eşleştirme desteği",
+      "Uçuş öncesi oryantasyon",
+      "Amerika'da 7/24 acil destek hattı",
     ],
-    cta: "Internship Basvurusu",
+    cta: "Internship Başvurusu",
     href: "/basvuru",
     featured: false,
   },
   {
     name: "Trainee",
-    tag: "En populer",
+    tag: "En popüler",
     price: "5.500",
     currency: "$",
     features: [
-      "Sponsor kurulus eslestirme",
+      "Sponsor kuruluş eşleştirme",
       "DS-2019 belgesi temini",
-      "SEVIS kaydi ve odeme rehberligi",
-      "Vize mulakat hazirligi",
-      "Garantili is eslestirme",
-      "Ucus oncesi oryantasyon",
-      "Amerikada 7/24 acil destek hatti",
-      "Kariyer koculugu",
+      "SEVIS kaydı ve ödeme rehberliği",
+      "Vize mülakat hazırlığı",
+      "Garantili iş eşleştirme",
+      "Uçuş öncesi oryantasyon",
+      "Amerika'da 7/24 acil destek hattı",
+      "Kariyer koçluğu",
       "LinkedIn profil optimizasyonu",
     ],
-    cta: "Trainee Basvurusu",
+    cta: "Trainee Başvurusu",
     href: "/basvuru",
     featured: true,
   },
 ];
 
 const additionalCosts = [
-  { item: "SEVIS Ucreti (I-901)", amount: "$220", note: "ABD hukumetine odenir" },
-  { item: "Vize Basvuru Ucreti (MRV)", amount: "$185", note: "ABD konsolosluguna odenir" },
-  { item: "Saglik Sigortasi", amount: "$50-100/ay", note: "Zorunlu, aylik odenir" },
-  { item: "Ucak Bileti", amount: "$800-1.500", note: "Sezona gore degisir" },
+  { item: "SEVIS Ücreti (I-901)", amount: "$220", note: "ABD hükümetine ödenir" },
+  { item: "Vize Başvuru Ücreti (MRV)", amount: "$185", note: "ABD konsolosluğuna ödenir" },
+  { item: "Sağlık Sigortası", amount: "$50-100/ay", note: "Zorunlu, aylık ödenir" },
+  { item: "Uçak Bileti", amount: "$800-1.500", note: "Sezona göre değişir" },
 ];
 
 export default function Ucretler() {
@@ -60,14 +60,14 @@ export default function Ucretler() {
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <ScrollReveal>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-4">
-              Ucretler
+              Ücretler
             </p>
             <h1 className="text-4xl lg:text-6xl font-bold text-navy tracking-tight mb-6 max-w-3xl">
-              Seffaf Fiyatlandirma
+              Şeffaf Fiyatlandırma
             </h1>
             <p className="text-lg text-slate leading-relaxed max-w-2xl">
-              Gizli ucret yok. Tum maliyetleri en basindan bilirsin.
-              Taksit secenekleri mevcuttur.
+              Gizli ücret yok. Tüm maliyetleri en başından bilirsin.
+              Taksit seçenekleri mevcuttur.
             </p>
           </ScrollReveal>
         </div>
@@ -151,7 +151,7 @@ export default function Ucretler() {
                 Ek Maliyetler
               </h2>
               <p className="text-slate leading-relaxed mb-10">
-                Program ucretine dahil olmayan, dogrudan ilgili kurumlara odenen ek masraflar:
+                Program ücretine dahil olmayan, doğrudan ilgili kurumlara ödenen ek masraflar:
               </p>
               <div className="divide-y divide-navy/5">
                 {additionalCosts.map((cost) => (
@@ -177,11 +177,11 @@ export default function Ucretler() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-2xl lg:text-3xl font-bold text-navy tracking-tight mb-4">
-                Taksit Secenekleri
+                Taksit Seçenekleri
               </h2>
               <p className="text-slate leading-relaxed mb-10">
-                Odemeyi tek seferde yapmak zorunda degilsin. 3, 6 veya 9 taksit
-                seceneklerimiz mevcut. Detaylar icin danismanlarimizla gorusebilirsin.
+                Ödemeyi tek seferde yapmak zorunda değilsin. 3, 6 veya 9 taksit
+                seçeneklerimiz mevcut. Detaylar için danışmanlarımızla görüşebilirsin.
               </p>
               <Link
                 href="/basvuru"

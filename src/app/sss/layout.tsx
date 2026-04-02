@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sikca Sorulan Sorular | Amerika Staj SSS",
+  title: "Sıkça Sorulan Sorular | Amerika Staj SSS",
   description:
-    "Amerika staj programi hakkinda en cok sorulan sorular ve cevaplari. Program, vize, ucret ve yasam hakkinda bilgiler.",
+    "Amerika staj programı hakkında en çok sorulan sorular ve cevapları. Program, vize, ücret ve yaşam hakkında bilgiler.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
