@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://amerikastaj.com",
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
