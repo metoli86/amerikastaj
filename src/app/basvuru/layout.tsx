@@ -4,8 +4,28 @@ export const metadata: Metadata = {
   title: "Staj Başvurusu | Ücretsiz Danışmanlık",
   description:
     "Amerika staj programına hemen başvur. 24 saat içinde geri dönüş, ücretsiz profil değerlendirmesi.",
+  alternates: {
+    canonical: "https://amerikastaj.com/basvuru",
+  },
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://amerikastaj.com" },
+              { "@type": "ListItem", "position": 2, "name": "Başvuru", "item": "https://amerikastaj.com/basvuru" },
+            ],
+          }),
+        }}
+      />
+      {children}
+    </>
+  );
 }

@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   description:
     "Amerika'da maaşlı staj programları, J1 vize danışmanlığı ve başvuru rehberi. Türkiye'nin en güvenilir Amerika staj danışmanlığı.",
   metadataBase: new URL("https://amerikastaj.com"),
+  alternates: {
+    canonical: "https://amerikastaj.com",
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
@@ -40,6 +43,35 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <body className="grain">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "amerikastaj.com",
+              "url": "https://amerikastaj.com",
+              "description": "Türkiye'nin en güvenilir Amerika staj danışmanlığı. J1 vize ile Amerika'da maaşlı staj programları.",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+90-212-123-4567",
+                "contactType": "customer service",
+                "availableLanguage": "Turkish",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "amerikastaj.com",
+              "url": "https://amerikastaj.com",
+            }),
+          }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
