@@ -1,65 +1,452 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
+import { motion } from "framer-motion";
+import ScrollReveal from "@/components/ScrollReveal";
+
+const stats = [
+  { value: "500+", label: "Stajyer yerlestirdik" },
+  { value: "%98", label: "Vize onay orani" },
+  { value: "12+", label: "Yil deneyim" },
+  { value: "50+", label: "Partner sirket" },
+];
+
+const programs = [
+  {
+    tag: "J1 Internship",
+    title: "Universite Ogrencileri Icin",
+    description:
+      "Universite ogrencileri ve yeni mezunlar icin 12 aya kadar maasli staj imkani. Otel, IT, isletme, muhendislik ve daha fazla sektorde.",
+    features: ["12 aya kadar", "Maasli pozisyonlar", "Tum sektorler"],
+    href: "/staj-programi",
+  },
+  {
+    tag: "J1 Trainee",
+    title: "Deneyimli Profesyoneller Icin",
+    description:
+      "En az 1 yil is deneyimi olan profesyoneller icin 18 aya kadar kariyer gelistirme programi. Kendi alaninda Amerika deneyimi kazan.",
+    features: ["18 aya kadar", "Kariyer gelisimi", "Profesyonel ag"],
+    href: "/staj-programi",
+  },
+];
+
+const steps = [
+  {
+    number: "01",
+    title: "Ucretsiz Danismanlik",
+    description: "Profilini degerlendiriyoruz, sana en uygun programi belirliyoruz.",
+  },
+  {
+    number: "02",
+    title: "Pozisyon Eslestirme",
+    description: "Alanina uygun Amerikadaki sirketlerle eslestiriyoruz.",
+  },
+  {
+    number: "03",
+    title: "Vize Sureci",
+    description: "DS-2019 belgen, SEVIS odemesi ve vize mulakat hazirligi.",
+  },
+  {
+    number: "04",
+    title: "Amerikaya Ucus",
+    description: "Her sey hazir. Staj maceranna basliyorsun.",
+  },
+];
+
+const sectors = [
+  { icon: "🏨", name: "Otelcilik & Turizm" },
+  { icon: "💻", name: "Bilgi Teknolojileri" },
+  { icon: "🍽️", name: "Gastronomi & Mutfak" },
+  { icon: "📊", name: "Isletme & Finans" },
+  { icon: "⚙️", name: "Muhendislik" },
+  { icon: "📱", name: "Pazarlama & Medya" },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      {/* ═══════════════════════ HERO ═══════════════════════ */}
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(30,58,95,0.08),transparent)]" />
+        <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-blue/5 rounded-full blur-[120px]" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-crimson/3 rounded-full blur-[100px]" />
+
+        <div
+          className="absolute inset-0 opacity-[0.02]"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px)",
+            backgroundSize: "60px 60px",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+
+        <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10 pt-32 pb-20">
+          <div className="max-w-4xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="flex items-center gap-3 mb-8"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              <div className="flex items-center gap-2 px-4 py-2 bg-navy/5 rounded-full">
+                <div className="w-2 h-2 bg-crimson rounded-full animate-pulse" />
+                <span className="text-xs font-semibold tracking-[0.1em] uppercase text-navy">
+                  2026 Basvurulari Acildi
+                </span>
+              </div>
+            </motion.div>
+
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+              className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-[1.05] tracking-tight text-navy mb-8"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+              Amerikada
+              <br />
+              <span className="relative inline-block">
+                staj deneyimi
+                <svg
+                  className="absolute -bottom-2 left-0 w-full"
+                  viewBox="0 0 300 12"
+                  fill="none"
+                >
+                  <motion.path
+                    d="M2 10C50 4 100 2 150 6C200 10 250 4 298 8"
+                    stroke="#dc2626"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    transition={{ duration: 1, delay: 1 }}
+                  />
+                </svg>
+              </span>{" "}
+              ile
+              <br />
+              kariyerine yon ver.
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="text-lg lg:text-xl text-slate leading-relaxed max-w-2xl mb-12"
+            >
+              J1 vize ile Amerikadaki sirketlerde maasli staj yap. Vize
+              islemlerinden is eslestirmeye kadar tum sureci biz yonetiyoruz.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="flex flex-col sm:flex-row items-start gap-4"
+            >
+              <Link
+                href="/basvuru"
+                className="group relative inline-flex items-center gap-3 px-8 py-4 bg-navy text-white font-semibold text-[15px] rounded-full overflow-hidden hover:shadow-2xl hover:shadow-navy/20 transition-all duration-500 hover:-translate-y-0.5"
+              >
+                <span className="relative z-10">Ucretsiz Danismanlik Al</span>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="relative z-10 group-hover:translate-x-1 transition-transform"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                <div className="absolute inset-0 bg-navy-light opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              </Link>
+              <Link
+                href="/staj-programi"
+                className="inline-flex items-center gap-3 px-8 py-4 text-navy font-semibold text-[15px] rounded-full border border-navy/10 hover:border-navy/30 hover:bg-navy/5 transition-all duration-300"
+              >
+                Programlari Incele
+              </Link>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.8 }}
+            className="mt-20 lg:mt-28 grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 lg:divide-x divide-navy/10"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            {stats.map((stat) => (
+              <div key={stat.label} className="lg:px-8 first:lg:pl-0">
+                <div className="text-3xl lg:text-4xl font-bold text-navy tracking-tight">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-slate mt-1">{stat.label}</div>
+              </div>
+            ))}
+          </motion.div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ═══════════════════════ PROGRAMS ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ScrollReveal>
+            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-16">
+              <div>
+                <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
+                  Programlar
+                </p>
+                <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
+                  Sana uygun programi sec
+                </h2>
+              </div>
+              <Link
+                href="/staj-programi"
+                className="text-sm font-medium text-navy hover:text-crimson transition-colors flex items-center gap-2"
+              >
+                Tum detaylar
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid lg:grid-cols-2 gap-6">
+            {programs.map((program, i) => (
+              <ScrollReveal key={program.tag} delay={i * 0.15}>
+                <Link href={program.href} className="group block">
+                  <div className="relative p-8 lg:p-10 rounded-2xl border border-navy/5 bg-white hover:border-navy/15 transition-all duration-500 hover:shadow-2xl hover:shadow-navy/5 hover:-translate-y-1">
+                    <div className="flex items-center gap-3 mb-6">
+                      <span className="px-3 py-1 text-[11px] font-bold tracking-[0.1em] uppercase bg-navy/5 text-navy rounded-full">
+                        {program.tag}
+                      </span>
+                    </div>
+                    <h3 className="text-2xl font-bold text-navy mb-3 group-hover:text-crimson transition-colors duration-300">
+                      {program.title}
+                    </h3>
+                    <p className="text-slate leading-relaxed mb-8">
+                      {program.description}
+                    </p>
+                    <div className="flex flex-wrap gap-3">
+                      {program.features.map((f) => (
+                        <span key={f} className="px-3 py-1.5 text-xs font-medium bg-sand rounded-lg text-navy/70">
+                          {f}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="absolute top-8 right-8 w-10 h-10 rounded-full border border-navy/10 flex items-center justify-center group-hover:bg-navy group-hover:border-navy transition-all duration-300">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-navy/30 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300">
+                        <path d="M7 17L17 7M17 7H7M17 7v10" />
+                      </svg>
+                    </div>
+                  </div>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════ HOW IT WORKS ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-sand/50">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ScrollReveal>
+            <div className="text-center mb-16 lg:mb-20">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
+                Nasil Calisir
+              </p>
+              <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
+                Dort adimda Amerikaya
+              </h2>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {steps.map((step, i) => (
+              <ScrollReveal key={step.number} delay={i * 0.1}>
+                <div className="relative p-8 bg-white rounded-2xl border border-navy/5 hover:border-navy/10 transition-all duration-300 group">
+                  <span className="text-6xl font-black text-navy/[0.04] absolute top-4 right-6 select-none">
+                    {step.number}
+                  </span>
+                  <div className="w-10 h-10 rounded-xl bg-navy/5 flex items-center justify-center mb-6 group-hover:bg-navy/10 transition-colors">
+                    <span className="text-sm font-bold text-navy">{step.number}</span>
+                  </div>
+                  <h3 className="text-lg font-bold text-navy mb-2">{step.title}</h3>
+                  <p className="text-sm text-slate leading-relaxed">{step.description}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════ SECTORS ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <ScrollReveal>
+              <div>
+                <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
+                  Sektorler
+                </p>
+                <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight mb-6">
+                  Hangi alanda staj yapmak istiyorsun?
+                </h2>
+                <p className="text-slate leading-relaxed mb-8">
+                  Otelcilikten yazilima, gastronimiden muhendislige kadar onlarca
+                  farkli sektorde Amerikan sirketleriyle calisma firsati.
+                </p>
+                <Link href="/staj-programi" className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-crimson transition-colors">
+                  Tum sektorleri gor
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={0.15}>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {sectors.map((sector) => (
+                  <div key={sector.name} className="p-5 rounded-2xl border border-navy/5 hover:border-navy/15 hover:shadow-lg hover:shadow-navy/5 hover:-translate-y-1 transition-all duration-300 cursor-default">
+                    <span className="text-2xl mb-3 block">{sector.icon}</span>
+                    <span className="text-sm font-semibold text-navy">{sector.name}</span>
+                  </div>
+                ))}
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════ WHY US ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-navy text-white overflow-hidden">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ScrollReveal>
+            <div className="text-center mb-16 lg:mb-20">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-blue-light mb-3">
+                Neden Biz
+              </p>
+              <h2 className="text-3xl lg:text-5xl font-bold tracking-tight">
+                Neden amerikastaj.com?
+              </h2>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Bastan Sona Destek",
+                description: "Basvurudan vize mulakatina, ucus planlamasindan staj baslangicina kadar her adimda yanindayiz.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                ),
+              },
+              {
+                title: "Garantili Yerlestirme",
+                description: "50den fazla Amerikan partner sirketimizle profiline en uygun pozisyonu buluyoruz.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                ),
+              },
+              {
+                title: "Seffaf Fiyatlandirma",
+                description: "Gizli ucret yok. Ne kadar odeyecegini en basindan bilirsin. Taksit secenekleri mevcut.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="12" y1="1" x2="12" y2="23" />
+                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                  </svg>
+                ),
+              },
+            ].map((item, i) => (
+              <ScrollReveal key={item.title} delay={i * 0.1}>
+                <div className="p-8 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10 transition-all duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center mb-6 text-blue-light">
+                    {item.icon}
+                  </div>
+                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                  <p className="text-white/60 leading-relaxed text-sm">{item.description}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════ TESTIMONIAL ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-sand/30">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ScrollReveal>
+            <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-flex items-center gap-1 mb-8">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} width="20" height="20" viewBox="0 0 24 24" fill="#d4a853" stroke="#d4a853" strokeWidth="1">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                ))}
+              </div>
+              <blockquote className="text-2xl lg:text-3xl font-bold text-navy leading-snug mb-8">
+                &ldquo;Amerikastaj sayesinde New Yorkta bir teknoloji sirketinde 6 ay staj yaptim.
+                Tum vize surecimi onlar yonetti, ben sadece isime odaklandim.&rdquo;
+              </blockquote>
+              <div>
+                <p className="font-semibold text-navy">Elif K.</p>
+                <p className="text-sm text-slate">
+                  Bilgisayar Muhendisligi, ITU &mdash; 2025 Stajyeri
+                </p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ═══════════════════════ GUIDE LINKS ═══════════════════════ */}
+      <section className="py-24 lg:py-32 bg-white">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-crimson mb-3">
+                Rehber
+              </p>
+              <h2 className="text-3xl lg:text-5xl font-bold text-navy tracking-tight">
+                Bilmen gereken her sey
+              </h2>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              { href: "/j1-vize", title: "J1 Vize Rehberi", desc: "J1 vizesi nedir, nasil basvurulur, gerekli belgeler nelerdir?" },
+              { href: "/amerika-vize-basvurusu", title: "Amerika Vize Basvurusu", desc: "ABD vize sureci, randevu alma, ucretler ve gerekli evraklar." },
+              { href: "/ds-160", title: "DS-160 Formu", desc: "DS-160 formu nasil doldurulur? Adim adim rehber." },
+              { href: "/j1-vize-mulakat-sorulari", title: "Mulakat Sorulari", desc: "J1 vize mulakatinda en cok sorulan sorular ve cevaplari." },
+              { href: "/amerikada-calismak", title: "Amerikada Calismak", desc: "Amerikada is bulmak, calisma kosullari ve yasam rehberi." },
+              { href: "/sss", title: "Sikca Sorulan Sorular", desc: "Staj programi hakkinda merak edilen tum sorular." },
+            ].map((item, i) => (
+              <ScrollReveal key={item.href} delay={i * 0.08}>
+                <Link href={item.href} className="group block">
+                  <div className="p-6 rounded-xl border border-navy/5 hover:border-navy/15 hover:shadow-lg hover:shadow-navy/5 hover:-translate-y-1 transition-all duration-300">
+                    <h3 className="font-bold text-navy mb-2 group-hover:text-crimson transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="text-sm text-slate leading-relaxed">{item.desc}</p>
+                  </div>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
